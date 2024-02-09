@@ -156,7 +156,7 @@
   </node>
   <node concept="3qu2lB" id="Z8IC1HyfaC">
     <property role="1ywVNE" value="50" />
-    <property role="TrG5h" value="Test" />
+    <property role="TrG5h" value="traffic lights" />
     <node concept="1ywVZ$" id="Z8IC1Hygad" role="1yx1lp">
       <property role="TrG5h" value="traffic light" />
       <node concept="1yxRPX" id="Z8IC1HygaD" role="1yxRbN">
@@ -184,6 +184,28 @@
       <property role="1yxsbr" value="0" />
       <property role="1yxs84" value="5" />
       <ref role="1yxtvM" node="Z8IC1Hygad" resolve="traffic light" />
+    </node>
+  </node>
+  <node concept="3qu2lB" id="1eyDnoVcABv">
+    <property role="1ywVNE" value="50" />
+    <property role="TrG5h" value="hello world" />
+    <node concept="1ywVZ$" id="1eyDnoVcZkh" role="1yx1lp">
+      <property role="TrG5h" value="simple block" />
+      <node concept="1yxRPX" id="1eyDnoVcZkj" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1Hyf7H" resolve="yellow" />
+      </node>
+    </node>
+    <node concept="1ywVSF" id="1eyDnoVcABw" role="1ywVSf">
+      <property role="1yxsbr" value="1" />
+      <property role="1yxs84" value="1" />
+      <ref role="1yxtvM" node="1eyDnoVcZkh" resolve="simple block" />
+    </node>
+    <node concept="1ywVSF" id="1eyDnoVdMEh" role="1ywVSf">
+      <property role="1yxsbr" value="3" />
+      <property role="1yxs84" value="3" />
+      <ref role="1yxtvM" node="Z8IC1HjnqY" resolve="red block" />
     </node>
   </node>
 </model>
