@@ -21,6 +21,8 @@
         <child id="1137363966663575667" name="shapes" index="1yxRbN" />
       </concept>
       <concept id="1137363966663575549" name="Blockly.structure.Block" flags="ng" index="1yxRPX">
+        <property id="1137363966663721653" name="movable" index="1yAFwP" />
+        <property id="1137363966663721681" name="sticky" index="1yAFxh" />
         <reference id="1137363966663721573" name="colour" index="1yAFz_" />
       </concept>
       <concept id="1137363966664869776" name="Blockly.structure.IShape" flags="ngI" index="1yENOg">
@@ -187,25 +189,33 @@
     </node>
   </node>
   <node concept="3qu2lB" id="1eyDnoVcABv">
-    <property role="1ywVNE" value="50" />
+    <property role="1ywVNE" value="10" />
     <property role="TrG5h" value="hello world" />
     <node concept="1ywVZ$" id="1eyDnoVcZkh" role="1yx1lp">
-      <property role="TrG5h" value="simple block" />
+      <property role="TrG5h" value="pen" />
       <node concept="1yxRPX" id="1eyDnoVcZkj" role="1yxRbN">
-        <property role="1yxsbr" value="0" />
+        <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="0" />
-        <ref role="1yAFz_" to="6vd5:Z8IC1Hyf7H" resolve="yellow" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1Hl7RD" resolve="randomly coloured" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVHs3b" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="1" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HkTaJ" resolve="black" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVHs3j" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="2" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HkTaJ" resolve="black" />
       </node>
     </node>
     <node concept="1ywVSF" id="1eyDnoVcABw" role="1ywVSf">
-      <property role="1yxsbr" value="1" />
+      <property role="1yxsbr" value="5" />
       <property role="1yxs84" value="1" />
       <ref role="1yxtvM" node="1eyDnoVcZkh" resolve="simple block" />
-    </node>
-    <node concept="1ywVSF" id="1eyDnoVdMEh" role="1ywVSf">
-      <property role="1yxsbr" value="3" />
-      <property role="1yxs84" value="3" />
-      <ref role="1yxtvM" node="Z8IC1HjnqY" resolve="red block" />
     </node>
   </node>
 </model>
