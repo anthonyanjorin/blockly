@@ -51,5 +51,35 @@
     <property role="1yAMUL" value="255" />
     <property role="1yAMVe" value="0" />
   </node>
+  <node concept="1yxRRf" id="1eyDnoVIG5A">
+    <property role="TrG5h" value="orange" />
+    <property role="1yAMU8" value="255" />
+    <property role="1yAMUL" value="165" />
+    <property role="1yAMVe" value="0" />
+  </node>
+  <node concept="1yxRRf" id="1eyDnoVIG5E">
+    <property role="TrG5h" value="blue" />
+    <property role="1yAMU8" value="0" />
+    <property role="1yAMUL" value="0" />
+    <property role="1yAMVe" value="255" />
+  </node>
+  <node concept="1yxRRf" id="1eyDnoVIG5H">
+    <property role="TrG5h" value="indigo" />
+    <property role="1yAMU8" value="75" />
+    <property role="1yAMUL" value="0" />
+    <property role="1yAMVe" value="130" />
+  </node>
+  <node concept="1yxRRf" id="1eyDnoVIG5K">
+    <property role="TrG5h" value="violet" />
+    <property role="1yAMU8" value="143" />
+    <property role="1yAMUL" value="0" />
+    <property role="1yAMVe" value="255" />
+  </node>
+  <node concept="1yxRRf" id="1eyDnoVJ_i6">
+    <property role="TrG5h" value="brown" />
+    <property role="1yAMU8" value="97" />
+    <property role="1yAMUL" value="54" />
+    <property role="1yAMVe" value="19" />
+  </node>
 </model>
 

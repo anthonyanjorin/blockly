@@ -197,7 +197,6 @@
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="0" />
         <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
-        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
         <ref role="1yAFz_" to="6vd5:Z8IC1Hl7RD" resolve="randomly coloured" />
       </node>
       <node concept="1yxRPX" id="1eyDnoVHs3b" role="1yxRbN">
@@ -212,10 +211,94 @@
         <ref role="1yAFz_" to="6vd5:Z8IC1HkTaJ" resolve="black" />
       </node>
     </node>
+    <node concept="1ywVZ$" id="1eyDnoVIFin" role="1yx1lp">
+      <property role="TrG5h" value="rainbow pen" />
+      <node concept="1yxRPX" id="1eyDnoVIG58" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HkTa7" resolve="red" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG5d" role="1yxRbN">
+        <property role="1yxsbr" value="2" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5A" resolve="orange" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG5k" role="1yxRbN">
+        <property role="1yxsbr" value="3" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1Hyf7H" resolve="yellow" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG5t" role="1yxRbN">
+        <property role="1yxsbr" value="4" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HyeWd" resolve="green" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG5V" role="1yxRbN">
+        <property role="1yxsbr" value="5" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5E" resolve="blue" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG69" role="1yxRbN">
+        <property role="1yxsbr" value="6" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5H" resolve="indigo" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG6p" role="1yxRbN">
+        <property role="1yxsbr" value="7" />
+        <property role="1yxs84" value="0" />
+        <property role="1yAFxh" value="Z8IC1Hl9XN/STICKY" />
+        <property role="1yAFwP" value="Z8IC1Hl9CU/FIXED" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5K" resolve="violet" />
+      </node>
+      <node concept="1yxRPX" id="1eyDnoVIG6E" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HkTaJ" resolve="black" />
+      </node>
+    </node>
     <node concept="1ywVSF" id="1eyDnoVcABw" role="1ywVSf">
-      <property role="1yxsbr" value="5" />
-      <property role="1yxs84" value="1" />
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="0" />
       <ref role="1yxtvM" node="1eyDnoVcZkh" resolve="simple block" />
+    </node>
+    <node concept="1ywVSF" id="1eyDnoVIFik" role="1ywVSf">
+      <property role="1yxsbr" value="5" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="1eyDnoVcZkh" resolve="pen" />
+    </node>
+    <node concept="1ywVSF" id="1eyDnoVIG5y" role="1ywVSf">
+      <property role="1yxsbr" value="10" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="1eyDnoVIFin" resolve="rainbow drawer" />
+    </node>
+  </node>
+  <node concept="3qu2lB" id="1eyDnoVJ_o7">
+    <property role="1ywVNE" value="50" />
+    <property role="TrG5h" value="test" />
+    <node concept="1ywVZ$" id="1eyDnoVJ_o8" role="1yx1lp">
+      <property role="TrG5h" value="foo" />
+      <node concept="1ywVSF" id="1eyDnoVJ_oa" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yxtvM" node="1eyDnoVJ_o8" resolve="foo" />
+      </node>
+    </node>
+    <node concept="1ywVSF" id="1eyDnoVJ_oc" role="1ywVSf">
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="1eyDnoVJ_o8" resolve="foo" />
     </node>
   </node>
 </model>

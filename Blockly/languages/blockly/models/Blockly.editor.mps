@@ -127,7 +127,7 @@
         <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
       </node>
       <node concept="1iCGBv" id="Z8IC1Hjnvi" role="3EZMnx">
-        <ref role="1NtTu8" to="95rv:Z8IC1HjmPM" resolve="type" />
+        <ref role="1NtTu8" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
         <node concept="1sVBvm" id="Z8IC1Hjnvk" role="1sWHZn">
           <node concept="3F0A7n" id="Z8IC1HjnvQ" role="2wV5jI">
             <property role="1Intyy" value="true" />

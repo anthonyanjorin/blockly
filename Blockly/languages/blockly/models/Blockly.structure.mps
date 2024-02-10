@@ -69,7 +69,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="shapes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="Z8IC1HiKiF" resolve="TypedShape" />
+      <ref role="20lvS9" node="Z8IC1HoSug" resolve="IShape" />
     </node>
     <node concept="1TJgyj" id="Z8IC1HjaZp" role="1TKVEi">
       <property role="IQ2ns" value="1137363966663372761" />
@@ -89,7 +89,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="Z8IC1HjmPM" role="1TKVEi">
       <property role="IQ2ns" value="1137363966663421298" />
-      <property role="20kJfa" value="type" />
+      <property role="20kJfa" value="typeShape" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="Z8IC1HiKl$" resolve="ShapeType" />
     </node>

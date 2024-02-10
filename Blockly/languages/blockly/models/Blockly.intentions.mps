@@ -89,31 +89,62 @@
       </node>
     </node>
   </node>
-  <node concept="2S6QgY" id="Z8IC1HpaEI">
-    <property role="TrG5h" value="AddBlock" />
+  <node concept="2S6QgY" id="1eyDnoVJm0N">
+    <property role="TrG5h" value="AddBlockToWorld" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="95rv:Z8IC1HiKl$" resolve="ShapeType" />
-    <node concept="2S6ZIM" id="Z8IC1HpaEJ" role="2ZfVej">
-      <node concept="3clFbS" id="Z8IC1HpaEK" role="2VODD2">
-        <node concept="3clFbF" id="Z8IC1HpaYm" role="3cqZAp">
-          <node concept="Xl_RD" id="Z8IC1HpaYl" role="3clFbG">
-            <property role="Xl_RC" value="Add a block to this shape" />
+    <ref role="2ZfgGC" to="95rv:2wtaWJMpgUG" resolve="World" />
+    <node concept="2S6ZIM" id="1eyDnoVJm0O" role="2ZfVej">
+      <node concept="3clFbS" id="1eyDnoVJm0P" role="2VODD2">
+        <node concept="3clFbF" id="1eyDnoVJmh_" role="3cqZAp">
+          <node concept="Xl_RD" id="1eyDnoVJmh$" role="3clFbG">
+            <property role="Xl_RC" value="Add a block to the world" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="2Sbjvc" id="Z8IC1HpaEL" role="2ZfgGD">
-      <node concept="3clFbS" id="Z8IC1HpaEM" role="2VODD2">
-        <node concept="3clFbF" id="Z8IC1Hpb3v" role="3cqZAp">
-          <node concept="2OqwBi" id="Z8IC1HpdE2" role="3clFbG">
-            <node concept="2OqwBi" id="Z8IC1Hpbgf" role="2Oq$k0">
-              <node concept="2Sf5sV" id="Z8IC1Hpb3u" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="Z8IC1HpbrI" role="2OqNvi">
-                <ref role="3TtcxE" to="95rv:Z8IC1HjWxN" resolve="shapes" />
+    <node concept="2Sbjvc" id="1eyDnoVJm0Q" role="2ZfgGD">
+      <node concept="3clFbS" id="1eyDnoVJm0R" role="2VODD2">
+        <node concept="3clFbF" id="1eyDnoVJmNF" role="3cqZAp">
+          <node concept="2OqwBi" id="1eyDnoVJpng" role="3clFbG">
+            <node concept="2OqwBi" id="1eyDnoVJmXT" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1eyDnoVJmNE" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1eyDnoVJn9e" role="2OqNvi">
+                <ref role="3TtcxE" to="95rv:Z8IC1HiKif" resolve="shapes" />
               </node>
             </node>
-            <node concept="WFELt" id="Z8IC1Hpflo" role="2OqNvi">
+            <node concept="WFELt" id="1eyDnoVJty2" role="2OqNvi">
               <ref role="1A0vxQ" to="95rv:Z8IC1HjWvX" resolve="Block" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1eyDnoVJtUW">
+    <property role="TrG5h" value="AddShapeToWorld" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="95rv:2wtaWJMpgUG" resolve="World" />
+    <node concept="2S6ZIM" id="1eyDnoVJtUX" role="2ZfVej">
+      <node concept="3clFbS" id="1eyDnoVJtUY" role="2VODD2">
+        <node concept="3clFbF" id="1eyDnoVJubJ" role="3cqZAp">
+          <node concept="Xl_RD" id="1eyDnoVJubI" role="3clFbG">
+            <property role="Xl_RC" value="Add a shape to the world" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1eyDnoVJtUZ" role="2ZfgGD">
+      <node concept="3clFbS" id="1eyDnoVJtV0" role="2VODD2">
+        <node concept="3clFbF" id="1eyDnoVJudX" role="3cqZAp">
+          <node concept="2OqwBi" id="1eyDnoVJwL$" role="3clFbG">
+            <node concept="2OqwBi" id="1eyDnoVJuob" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1eyDnoVJudW" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1eyDnoVJuzx" role="2OqNvi">
+                <ref role="3TtcxE" to="95rv:Z8IC1HiKif" resolve="shapes" />
+              </node>
+            </node>
+            <node concept="WFELt" id="1eyDnoVJytF" role="2OqNvi">
+              <ref role="1A0vxQ" to="95rv:Z8IC1HiKiF" resolve="TypedShape" />
             </node>
           </node>
         </node>

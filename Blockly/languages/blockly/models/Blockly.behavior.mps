@@ -383,7 +383,70 @@
   <node concept="13h7C7" id="Z8IC1HoPWF">
     <ref role="13h7C2" to="95rv:Z8IC1HjWvX" resolve="Block" />
     <node concept="13hLZK" id="Z8IC1HoPWG" role="13h7CW">
-      <node concept="3clFbS" id="Z8IC1HoPWH" role="2VODD2" />
+      <node concept="3clFbS" id="Z8IC1HoPWH" role="2VODD2">
+        <node concept="3clFbF" id="1eyDnoVIYkm" role="3cqZAp">
+          <node concept="37vLTI" id="1eyDnoVJ3mj" role="3clFbG">
+            <node concept="3cmrfG" id="1eyDnoVJ3Jf" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="1eyDnoVIYuO" role="37vLTJ">
+              <node concept="13iPFW" id="1eyDnoVIYkl" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eyDnoVIYC6" role="2OqNvi">
+                <ref role="3TsBF5" to="95rv:Z8IC1Hjnxr" resolve="down" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eyDnoVJ3MB" role="3cqZAp">
+          <node concept="37vLTI" id="1eyDnoVJ6oG" role="3clFbG">
+            <node concept="3cmrfG" id="1eyDnoVJ6LC" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="1eyDnoVJ3Xc" role="37vLTJ">
+              <node concept="13iPFW" id="1eyDnoVJ3M_" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eyDnoVJ46w" role="2OqNvi">
+                <ref role="3TsBF5" to="95rv:Z8IC1Hjny4" resolve="right" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eyDnoVJ6Nj" role="3cqZAp">
+          <node concept="37vLTI" id="1eyDnoVJ78B" role="3clFbG">
+            <node concept="2OqwBi" id="1eyDnoVJ7VQ" role="37vLTx">
+              <node concept="1XH99k" id="1eyDnoVJ7aM" role="2Oq$k0">
+                <ref role="1XH99l" to="95rv:Z8IC1Hl9XM" resolve="STICKYNESS" />
+              </node>
+              <node concept="2ViDtV" id="1eyDnoVJ8lB" role="2OqNvi">
+                <ref role="2ViDtZ" to="95rv:Z8IC1Hl9Yr" resolve="NON_STICKY" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1eyDnoVJ6Ol" role="37vLTJ">
+              <node concept="13iPFW" id="1eyDnoVJ6Nh" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eyDnoVJ6Py" role="2OqNvi">
+                <ref role="3TsBF5" to="95rv:Z8IC1Hkwbh" resolve="sticky" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eyDnoVJ8nU" role="3cqZAp">
+          <node concept="37vLTI" id="1eyDnoVJ8JP" role="3clFbG">
+            <node concept="2OqwBi" id="1eyDnoVJ9Gg" role="37vLTx">
+              <node concept="1XH99k" id="1eyDnoVJ8Nx" role="2Oq$k0">
+                <ref role="1XH99l" to="95rv:Z8IC1Hl9BE" resolve="MOVEABILITY" />
+              </node>
+              <node concept="2ViDtV" id="1eyDnoVJa5s" role="2OqNvi">
+                <ref role="2ViDtZ" to="95rv:Z8IC1Hl9BF" resolve="MOVABLE" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1eyDnoVJ8pr" role="37vLTJ">
+              <node concept="13iPFW" id="1eyDnoVJ8nS" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eyDnoVJ8qE" role="2OqNvi">
+                <ref role="3TsBF5" to="95rv:Z8IC1HkwaP" resolve="movable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="1eyDnoV27R_" role="13h7CS">
       <property role="TrG5h" value="toRuntimeShape" />
@@ -1271,7 +1334,7 @@
                   <node concept="2OqwBi" id="1eyDnoV9Yme" role="2Oq$k0">
                     <node concept="13iPFW" id="1eyDnoV9Y9M" role="2Oq$k0" />
                     <node concept="3TrEf2" id="1eyDnoV9Yvw" role="2OqNvi">
-                      <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="type" />
+                      <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="1eyDnoV9YTY" role="2OqNvi">
