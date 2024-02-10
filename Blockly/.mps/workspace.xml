@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,34 +142,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -199,80 +163,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:daa4eab2-729e-4337-b8d5-5ad1d1604f0f(Blockly.typesystem) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6f85731c-3a87-4bbb-a726-68924ef3b57c(Blockly.colours) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.colours.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,10 +181,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1414875160174810586" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
