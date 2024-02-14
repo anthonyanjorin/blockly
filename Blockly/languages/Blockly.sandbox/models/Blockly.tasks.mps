@@ -38,7 +38,7 @@
   </registry>
   <node concept="3qu2lB" id="1eyDnoVKPo2">
     <property role="1ywVNE" value="50" />
-    <property role="TrG5h" value="level0" />
+    <property role="TrG5h" value="0: my simple world" />
     <node concept="1yxRPX" id="1eyDnoVKPnS" role="1ywVSf">
       <property role="1yxsbr" value="6" />
       <property role="1yxs84" value="5" />
@@ -47,7 +47,7 @@
   </node>
   <node concept="3qu2lB" id="1eyDnoVKPo8">
     <property role="1ywVNE" value="20" />
-    <property role="TrG5h" value="level1" />
+    <property role="TrG5h" value="1: my easy world" />
     <node concept="1ywVZ$" id="1eyDnoVKPnY" role="1yx1lp">
       <property role="TrG5h" value="sunflower" />
       <node concept="1yxRPX" id="1eyDnoVKPnT" role="1yxRbN">
@@ -79,7 +79,7 @@
   </node>
   <node concept="3qu2lB" id="1eyDnoVKPoB">
     <property role="1ywVNE" value="10" />
-    <property role="TrG5h" value="level2" />
+    <property role="TrG5h" value="2: my flower world" />
     <node concept="1ywVZ$" id="1eyDnoVKPoC" role="1yx1lp">
       <property role="TrG5h" value="sunflower field" />
       <node concept="1ywVSF" id="1eyDnoVKPoP" role="1yxRbN">
@@ -122,7 +122,7 @@
   </node>
   <node concept="3qu2lB" id="1eyDnoVLgMu">
     <property role="1ywVNE" value="10" />
-    <property role="TrG5h" value="level3" />
+    <property role="TrG5h" value="3: my paint world" />
     <node concept="1ywVSF" id="1eyDnoVLgNc" role="1ywVSf">
       <property role="1yxsbr" value="0" />
       <property role="1yxs84" value="0" />
@@ -181,7 +181,7 @@
   </node>
   <node concept="3qu2lB" id="1eyDnoVLgOA">
     <property role="1ywVNE" value="10" />
-    <property role="TrG5h" value="level4" />
+    <property role="TrG5h" value="4: my flower+paint world" />
   </node>
 </model>
 
