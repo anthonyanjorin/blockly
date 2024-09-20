@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/Blockly.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/Blockly.sandbox.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.sandbox.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/Blockly.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/Blockly.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="779a5aae-9d20-406b-9409-fb433db95b93/r:d22688e0-dc91-4b1b-9a86-a4d627c9d11d(TempModule779a5aae-9d20-406b-9409-fb433db95b93/ConsoleModel_430563307056794)">
+            <model ref="2dad42e4-d426-4579-bc06-cfb9be01f696/r:9b27510c-9cc1-406c-95e9-c22ee29b945d(TempModule2dad42e4-d426-4579-bc06-cfb9be01f696/ConsoleModel_1804673644840556)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +39,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1eyDnoUWYsP">
-                <node concept="3balQm" id="1eyDnoUWYsQ" role="aymYE" />
-                <node concept="2Clz$F" id="1eyDnoUWYsR" role="aymYO" />
-                <node concept="2_V_lH" id="1eyDnoUWYsS" role="1PhJh3">
-                  <ref role="2_V_lI" node="1eyDnoUWYsR" resolve="CommandHolder" />
+              <node concept="aymSD" id="mQDXj0B9xn">
+                <node concept="3balQm" id="mQDXj0B9xo" role="aymYE" />
+                <node concept="2Clz$F" id="mQDXj0B9xp" role="aymYO" />
+                <node concept="2_V_lH" id="mQDXj0B9xq" role="1PhJh3">
+                  <ref role="2_V_lI" node="mQDXj0B9xp" />
                 </node>
               </node>
             </model>
@@ -146,26 +146,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -183,10 +163,6 @@
               <option name="myItemId" value="Blockly" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -194,7 +170,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)" />
+              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,7 +206,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1414875160175138343" />
+              <option name="myItemId" value="1414875160175138312" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -245,14 +221,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -58,7 +58,7 @@
     <property role="TrG5h" value="World" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="world" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Z8IC1HiKpE" role="1TKVEl">
       <property role="IQ2nx" value="1137363966663263850" />
       <property role="TrG5h" value="blockSize" />
@@ -86,7 +86,7 @@
     <property role="EcuMT" value="1137363966663263403" />
     <property role="TrG5h" value="TypedShape" />
     <property role="34LRSv" value="shape" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Z8IC1HjmPM" role="1TKVEi">
       <property role="IQ2ns" value="1137363966663421298" />
       <property role="20kJfa" value="typeShape" />
@@ -101,7 +101,7 @@
     <property role="EcuMT" value="1137363966663263588" />
     <property role="TrG5h" value="ShapeType" />
     <property role="34LRSv" value="type" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Z8IC1HjWxN" role="1TKVEi">
       <property role="IQ2ns" value="1137363966663575667" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -118,7 +118,7 @@
     <property role="TrG5h" value="Colour" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="colour" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Z8IC1HkTg8" role="1TKVEl">
       <property role="IQ2nx" value="1137363966663824392" />
       <property role="TrG5h" value="R" />
