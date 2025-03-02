@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -71,6 +72,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
@@ -640,6 +642,151 @@
     <node concept="1YaCAy" id="1eyDnoVJ_oh" role="1YuTPh">
       <property role="TrG5h" value="shapeType" />
       <ref role="1YaFvo" to="95rv:Z8IC1HiKl$" resolve="ShapeType" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5keHOqLLbWq">
+    <property role="TrG5h" value="BoxFractals" />
+    <node concept="3clFbS" id="5keHOqLLbWr" role="18ibNy">
+      <node concept="3clFbF" id="5keHOqLM1XC" role="3cqZAp">
+        <node concept="2OqwBi" id="5keHOqLMbsD" role="3clFbG">
+          <node concept="2OqwBi" id="5keHOqLM4L3" role="2Oq$k0">
+            <node concept="2OqwBi" id="5keHOqLM2a4" role="2Oq$k0">
+              <node concept="1YBJjd" id="5keHOqLM1XA" role="2Oq$k0">
+                <ref role="1YBMHb" node="5keHOqLLbWt" resolve="world" />
+              </node>
+              <node concept="3Tsc0h" id="5keHOqLM2_g" role="2OqNvi">
+                <ref role="3TtcxE" to="95rv:Z8IC1HiKif" resolve="shapes" />
+              </node>
+            </node>
+            <node concept="3zZkjj" id="5keHOqLM9Ur" role="2OqNvi">
+              <node concept="1bVj0M" id="5keHOqLM9Ut" role="23t8la">
+                <node concept="3clFbS" id="5keHOqLM9Uu" role="1bW5cS">
+                  <node concept="3clFbF" id="5keHOqLM9XS" role="3cqZAp">
+                    <node concept="2OqwBi" id="5keHOqLMaai" role="3clFbG">
+                      <node concept="37vLTw" id="5keHOqLM9XR" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5keHOqLM9Uv" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="5keHOqLMaRW" role="2OqNvi">
+                        <ref role="37wK5l" to="rh1t:5keHOqLgNOB" resolve="isRecursive" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="5keHOqLM9Uv" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5keHOqLM9Uw" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2es0OD" id="5keHOqLMdkw" role="2OqNvi">
+            <node concept="1bVj0M" id="5keHOqLMdky" role="23t8la">
+              <node concept="3clFbS" id="5keHOqLMdkz" role="1bW5cS">
+                <node concept="3clFbJ" id="5keHOqLLxc3" role="3cqZAp">
+                  <node concept="3clFbS" id="5keHOqLLxc5" role="3clFbx">
+                    <node concept="2MkqsV" id="5keHOqLLGWK" role="3cqZAp">
+                      <node concept="Xl_RD" id="5keHOqLLGWT" role="2MkJ7o">
+                        <property role="Xl_RC" value="A box fractal can only be placed at (0, 0)" />
+                      </node>
+                      <node concept="37vLTw" id="5keHOqLMecV" role="1urrMF">
+                        <ref role="3cqZAo" node="5keHOqLMdk$" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="22lmx$" id="5keHOqLLFOY" role="3clFbw">
+                    <node concept="3y3z36" id="5keHOqLLAkF" role="3uHU7B">
+                      <node concept="2OqwBi" id="5keHOqLLxqN" role="3uHU7B">
+                        <node concept="37vLTw" id="5keHOqLMe_x" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5keHOqLMdk$" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="5keHOqLLxOr" role="2OqNvi">
+                          <ref role="3TsBF5" to="95rv:Z8IC1Hjnxr" resolve="down" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="5keHOqLLC29" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                    <node concept="3y3z36" id="5keHOqLLFUc" role="3uHU7w">
+                      <node concept="2OqwBi" id="5keHOqLLFUd" role="3uHU7B">
+                        <node concept="37vLTw" id="5keHOqLMh$6" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5keHOqLMdk$" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="5keHOqLLGV4" role="2OqNvi">
+                          <ref role="3TsBF5" to="95rv:Z8IC1Hjny4" resolve="right" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="5keHOqLLFUl" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="5keHOqLMmSj" role="3cqZAp">
+                  <node concept="2OqwBi" id="5keHOqLMx16" role="3clFbG">
+                    <node concept="2OqwBi" id="5keHOqLMrqc" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5keHOqLMnaw" role="2Oq$k0">
+                        <node concept="1YBJjd" id="5keHOqLMmSh" role="2Oq$k0">
+                          <ref role="1YBMHb" node="5keHOqLLbWt" resolve="world" />
+                        </node>
+                        <node concept="3Tsc0h" id="5keHOqLMnFe" role="2OqNvi">
+                          <ref role="3TtcxE" to="95rv:Z8IC1HiKif" resolve="shapes" />
+                        </node>
+                      </node>
+                      <node concept="3zZkjj" id="5keHOqLMuFb" role="2OqNvi">
+                        <node concept="1bVj0M" id="5keHOqLMuFd" role="23t8la">
+                          <node concept="3clFbS" id="5keHOqLMuFe" role="1bW5cS">
+                            <node concept="3clFbF" id="5keHOqLMv47" role="3cqZAp">
+                              <node concept="17QLQc" id="5keHOqLMvLj" role="3clFbG">
+                                <node concept="37vLTw" id="5keHOqLMw6F" role="3uHU7w">
+                                  <ref role="3cqZAo" node="5keHOqLMdk$" resolve="it" />
+                                </node>
+                                <node concept="37vLTw" id="5keHOqLMv46" role="3uHU7B">
+                                  <ref role="3cqZAo" node="5keHOqLMuFf" resolve="other" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="gl6BB" id="5keHOqLMuFf" role="1bW2Oz">
+                            <property role="TrG5h" value="other" />
+                            <node concept="2jxLKc" id="5keHOqLMuFg" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2es0OD" id="5keHOqLMyTM" role="2OqNvi">
+                      <node concept="1bVj0M" id="5keHOqLMyTO" role="23t8la">
+                        <node concept="3clFbS" id="5keHOqLMyTP" role="1bW5cS">
+                          <node concept="2MkqsV" id="5keHOqLLq1f" role="3cqZAp">
+                            <node concept="Xl_RD" id="5keHOqLLq1o" role="2MkJ7o">
+                              <property role="Xl_RC" value="You can only have one box fractal in your world." />
+                            </node>
+                            <node concept="37vLTw" id="5keHOqLM$IA" role="1urrMF">
+                              <ref role="3cqZAo" node="5keHOqLMyTQ" resolve="other" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="gl6BB" id="5keHOqLMyTQ" role="1bW2Oz">
+                          <property role="TrG5h" value="other" />
+                          <node concept="2jxLKc" id="5keHOqLMyTR" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="gl6BB" id="5keHOqLMdk$" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="5keHOqLMdk_" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5keHOqLLbWt" role="1YuTPh">
+      <property role="TrG5h" value="world" />
+      <ref role="1YaFvo" to="95rv:2wtaWJMpgUG" resolve="World" />
     </node>
   </node>
 </model>

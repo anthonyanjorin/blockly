@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Enabled fractals as recursive calls.">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,54 +173,6 @@
               <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
               <item name="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
             </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:15e372ad-92bf-4a5b-9dc4-eae7c84f713d(Blockly.constraints) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-              <item name="'runtime'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:daa4eab2-729e-4337-b8d5-5ad1d1604f0f(Blockly.typesystem) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.intentions.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="accessories" type="1adb9f5e:LanguageProjectViewNode$AccessorySModelProjectViewNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -273,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740911552518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Enabled fractals as recursive calls.">
+      <option name="closed" value="true" />
+      <created>1740943718900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740943718900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">

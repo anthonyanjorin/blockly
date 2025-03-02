@@ -324,7 +324,7 @@
     <node concept="1ywVSF" id="5keHOqJHzsn" role="1ywVSf">
       <property role="1yxsbr" value="0" />
       <property role="1yxs84" value="0" />
-      <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+      <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
     </node>
   </node>
 </model>
