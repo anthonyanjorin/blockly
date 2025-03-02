@@ -87,5 +87,11 @@
     <property role="1yAMUL" value="255" />
     <property role="1yAMVe" value="255" />
   </node>
+  <node concept="1yxRRf" id="5keHOqLDxH4">
+    <property role="TrG5h" value="pink" />
+    <property role="1yAMU8" value="255" />
+    <property role="1yAMUL" value="20" />
+    <property role="1yAMVe" value="147" />
+  </node>
 </model>
 

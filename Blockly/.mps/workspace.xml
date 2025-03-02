@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Added demo video">
+    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Enabled fractals as recursive calls.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.constraints.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +77,12 @@
       <finders>
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
         <finder class_name="jetbrains.mps.baseLanguage.findUsages.BaseMethodUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
         <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
       </finders>
     </finders_option>
@@ -216,6 +218,12 @@
               <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
               <item name="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.intentions.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
             </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="accessories" type="1adb9f5e:LanguageProjectViewNode$AccessorySModelProjectViewNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,18 +265,173 @@
       <option name="project" value="LOCAL" />
       <updated>1726814824876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enabled fractals as recursive calls.">
+      <option name="closed" value="true" />
+      <created>1740911552516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740911552518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
-    <tabs />
+    <tabs>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162824593" title="toRuntimeShape(int,int,int):RuntimeIShape" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Blockly" excluded="false" isresult="false" results_section="false" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="IShape_Behavior" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966665200525" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: method in: IShape_Behavior)" excluded="false" isresult="true" results_section="false" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162824593">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Blockly" excluded="false" isresult="false" results_section="true" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="Block_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966664859435" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: method in: Block_Behavior)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162893285">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="RuntimeWorld" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966664993095" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160163106424">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="TypedShape_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966665194895" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: method in: TypedShape_Behavior)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162929102">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                          <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164975211">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                        <child caption="handleRecursiveCall(node&lt;IShape&gt;,int,int,int):RuntimeIShape" info="(role: method in: TypedShape_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/6129037657147687114">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/6129037657148737138">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
+                    </child>
+                  </child>
+                </child>
+                <child caption="Exact Method Usages" excluded="false" isresult="false" results_section="true" category="Exact Method Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Blockly" excluded="false" isresult="false" results_section="true" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="RuntimeWorld" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966664993095" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160163106424">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="TypedShape_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966665194895" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: method in: TypedShape_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162929102">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164975211">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                        <child caption="handleRecursiveCall(node&lt;IShape&gt;,int,int,int):RuntimeIShape" info="(role: method in: TypedShape_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/6129037657147687114">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="toRuntimeShape(int,int,int):RuntimeIShape" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/6129037657148737138">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added demo video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added demo video" />
+    <MESSAGE value="Enabled fractals as recursive calls." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enabled fractals as recursive calls." />
   </component>
 </project>
