@@ -99,7 +99,7 @@
       <node concept="3clFbS" id="2wtaWJMpnSR" role="2VODD2">
         <node concept="3clFbF" id="2wtaWJMpob3" role="3cqZAp">
           <node concept="Xl_RD" id="2wtaWJMpob2" role="3clFbG">
-            <property role="Xl_RC" value="Show the world" />
+            <property role="Xl_RC" value="Show the World" />
           </node>
         </node>
       </node>
@@ -125,7 +125,7 @@
       <node concept="3clFbS" id="1eyDnoVJm0P" role="2VODD2">
         <node concept="3clFbF" id="1eyDnoVJmh_" role="3cqZAp">
           <node concept="Xl_RD" id="1eyDnoVJmh$" role="3clFbG">
-            <property role="Xl_RC" value="Add a block to the world" />
+            <property role="Xl_RC" value="Add a Block to the World" />
           </node>
         </node>
       </node>
@@ -188,7 +188,7 @@
       <node concept="3clFbS" id="1eyDnoVJtUY" role="2VODD2">
         <node concept="3clFbF" id="1eyDnoVJubJ" role="3cqZAp">
           <node concept="Xl_RD" id="1eyDnoVJubI" role="3clFbG">
-            <property role="Xl_RC" value="Add a shape to the world" />
+            <property role="Xl_RC" value="Add a Shape to the World" />
           </node>
         </node>
       </node>
@@ -251,7 +251,7 @@
       <node concept="3clFbS" id="1eyDnoVLb9p" role="2VODD2">
         <node concept="3clFbF" id="1eyDnoVLb9q" role="3cqZAp">
           <node concept="Xl_RD" id="1eyDnoVLb9r" role="3clFbG">
-            <property role="Xl_RC" value="Add a block to this shape type" />
+            <property role="Xl_RC" value="Add a Block to This Shape Type" />
           </node>
         </node>
       </node>
@@ -282,7 +282,7 @@
       <node concept="3clFbS" id="1eyDnoVLe8Q" role="2VODD2">
         <node concept="3clFbF" id="1eyDnoVLe8R" role="3cqZAp">
           <node concept="Xl_RD" id="1eyDnoVLe8S" role="3clFbG">
-            <property role="Xl_RC" value="Add a shape to this shape type" />
+            <property role="Xl_RC" value="Add a Shape to This Shape Type" />
           </node>
         </node>
       </node>

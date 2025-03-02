@@ -78,6 +78,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="Z8IC1HiKl$" resolve="ShapeType" />
     </node>
+    <node concept="1TJgyj" id="5keHOqJFwgi" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657120834578" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="importedWorlds" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5keHOqJFwge" resolve="WorldRef" />
+    </node>
     <node concept="PrWs8" id="2wtaWJMpgW8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -205,6 +212,17 @@
       <property role="IQ2nx" value="1137363966663424132" />
       <property role="TrG5h" value="right" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqJFwge">
+    <property role="EcuMT" value="6129037657120834574" />
+    <property role="TrG5h" value="WorldRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5keHOqJFwgf" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657120834575" />
+      <property role="20kJfa" value="world" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2wtaWJMpgUG" resolve="World" />
     </node>
   </node>
 </model>

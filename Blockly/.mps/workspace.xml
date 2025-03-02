@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/Blockly.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/Blockly.sandbox.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/Blockly.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/Blockly.mpl" afterDir="false" />
+    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Added demo video">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.colours.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.intentions.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +23,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="2dad42e4-d426-4579-bc06-cfb9be01f696/r:9b27510c-9cc1-406c-95e9-c22ee29b945d(TempModule2dad42e4-d426-4579-bc06-cfb9be01f696/ConsoleModel_1804673644840556)">
+            <model ref="d94f0771-70e4-45a1-a22f-1c45bc17fbf6/r:3a5faa86-f0ea-4557-871c-f2627740fa71(TempModuled94f0771-70e4-45a1-a22f-1c45bc17fbf6/ConsoleModel_1319685808691708)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +43,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="mQDXj0B9xn">
-                <node concept="3balQm" id="mQDXj0B9xo" role="aymYE" />
-                <node concept="2Clz$F" id="mQDXj0B9xp" role="aymYO" />
-                <node concept="2_V_lH" id="mQDXj0B9xq" role="1PhJh3">
-                  <ref role="2_V_lI" node="mQDXj0B9xp" />
+              <node concept="aymSD" id="5keHOqLgFKT">
+                <node concept="3balQm" id="5keHOqLgFKU" role="aymYE" />
+                <node concept="2Clz$F" id="5keHOqLgFKV" role="aymYO" />
+                <node concept="2_V_lH" id="5keHOqLgFKW" role="1PhJh3">
+                  <ref role="2_V_lI" node="5keHOqLgFKV" />
                 </node>
               </node>
             </model>
@@ -140,76 +144,80 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="92af3d05-090d-45e0-a9e6-5500e48d7545" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockly" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1414875160175138312" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
+          <expand>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+              <item name="r:70cc4570-9816-4f39-952e-eea40bcb17f4(Blockly.fractals) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.fractals.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+              <item name="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:15e372ad-92bf-4a5b-9dc4-eae7c84f713d(Blockly.constraints) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'runtime'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:daa4eab2-729e-4337-b8d5-5ad1d1604f0f(Blockly.typesystem) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/blockly/models/Blockly.intentions.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -230,6 +238,9 @@
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="" />
@@ -238,143 +249,26 @@
       <option name="presentableId" value="Default" />
       <updated>1707380975009</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added demo video">
+      <option name="closed" value="true" />
+      <created>1726814824874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726814824876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
-    <tabs>
-      <tab>
-        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
-          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
-            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
-          </child>
-          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
-            <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
-          </child>
-        </result_provider>
-        <query>
-          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
-          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966666614380" title="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" />
-          </holder>
-        </query>
-        <usage_view>
-          <tree_wrapper>
-            <view_options>
-              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
-            </view_options>
-            <contents caption="" excluded="false" isresult="false" results_section="false">
-              <role name="main root" />
-              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
-                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
-                <role name="searched nodes" />
-                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="Blockly" excluded="false" isresult="false" results_section="false" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="false">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="RuntimeBlock" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966666610853" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" info="(role: member in: RuntimeBlock)" excluded="false" isresult="true" results_section="false" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966666614380">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
-                    </child>
-                  </child>
-                </child>
-              </child>
-              <child caption="Usages" excluded="false" isresult="false" results_section="true">
-                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
-                <role name="results" />
-                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="Blockly" excluded="false" isresult="false" results_section="true" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="Block_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966664859435" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="toRuntimeShape(int,int):RuntimeIShape" info="(role: method in: Block_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162893285">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" info="(role: creator in: new)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164520375">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <child caption="RuntimeBlock" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966666610853" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="move(RuntimePoint):void" info="(role: member in: RuntimeBlock)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164009466">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" info="(role: creator in: new)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160170101917">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
-                    </child>
-                  </child>
-                </child>
-                <child caption="Exact Method Usages" excluded="false" isresult="false" results_section="true" category="Exact Method Usages" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="Blockly" excluded="false" isresult="false" results_section="true" module_ref="3753242a-9870-48a1-8400-8b7ef1608341(Blockly)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="Blockly.behavior" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="Block_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966664859435" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="toRuntimeShape(int,int):RuntimeIShape" info="(role: method in: Block_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160162893285">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" info="(role: creator in: new)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164520375">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <child caption="RuntimeBlock" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1137363966666610853" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="move(RuntimePoint):void" info="(role: member in: RuntimeBlock)" excluded="false" isresult="false" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160164009466">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="RuntimeBlock(RuntimePoint,node&lt;Colour&gt;,boolean,boolean)" info="(role: creator in: new)" excluded="false" isresult="true" results_section="true" nodePtr="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)/1414875160170101917">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" />
-                    </child>
-                  </child>
-                </child>
-              </child>
-            </contents>
-          </tree_wrapper>
-        </usage_view>
-      </tab>
-    </tabs>
+    <tabs />
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added demo video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added demo video" />
   </component>
 </project>

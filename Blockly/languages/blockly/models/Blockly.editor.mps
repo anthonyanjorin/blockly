@@ -15,6 +15,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -116,6 +117,22 @@
         <node concept="3vyZuw" id="Z8IC1Ho_wF" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="3EZMnI" id="5keHOqJEmE0" role="3EZMnx">
+        <node concept="VPM3Z" id="5keHOqJEmE2" role="3F10Kt" />
+        <node concept="3F0ifn" id="5keHOqJEmE9" role="3EZMnx">
+          <property role="3F0ifm" value="use types from:" />
+          <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+          <node concept="pVoyu" id="5keHOqJEBiC" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="5keHOqJFwgm" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="95rv:5keHOqJFwgi" resolve="importedWorlds" />
+          <node concept="l2Vlx" id="5keHOqJFwgo" role="2czzBx" />
+        </node>
+        <node concept="l2Vlx" id="5keHOqJEmE5" role="2iSdaV" />
       </node>
     </node>
   </node>
@@ -326,6 +343,18 @@
         </node>
         <node concept="3mYdg7" id="Z8IC1HkTj9" role="3F10Kt">
           <property role="1413C4" value="body-paren" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5keHOqJGzcQ">
+    <ref role="1XX52x" to="95rv:5keHOqJFwge" resolve="WorldRef" />
+    <node concept="1iCGBv" id="5keHOqJGzcS" role="2wV5jI">
+      <ref role="1NtTu8" to="95rv:5keHOqJFwgf" resolve="world" />
+      <node concept="1sVBvm" id="5keHOqJGzcU" role="1sWHZn">
+        <node concept="3F0A7n" id="5keHOqJGzcY" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

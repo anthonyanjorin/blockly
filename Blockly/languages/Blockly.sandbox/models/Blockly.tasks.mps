@@ -13,6 +13,7 @@
         <property id="1137363966663263850" name="blockSize" index="1ywVNE" />
         <child id="1137363966663263375" name="shapes" index="1ywVSf" />
         <child id="1137363966663372761" name="types" index="1yx1lp" />
+        <child id="6129037657120834578" name="importedWorlds" index="3UCbdk" />
       </concept>
       <concept id="1137363966663263403" name="Blockly.structure.TypedShape" flags="ng" index="1ywVSF">
         <reference id="1137363966663421298" name="typeShape" index="1yxtvM" />
@@ -28,6 +29,9 @@
       <concept id="1137363966664869776" name="Blockly.structure.IShape" flags="ngI" index="1yENOg">
         <property id="1137363966663424132" name="right" index="1yxs84" />
         <property id="1137363966663424091" name="down" index="1yxsbr" />
+      </concept>
+      <concept id="6129037657120834574" name="Blockly.structure.WorldRef" flags="ng" index="3UCbd8">
+        <reference id="6129037657120834575" name="world" index="3UCbd9" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -80,6 +84,9 @@
   <node concept="3qu2lB" id="1eyDnoVKPoB">
     <property role="1ywVNE" value="10" />
     <property role="TrG5h" value="2: my flower world" />
+    <node concept="3UCbd8" id="5keHOqJGzcP" role="3UCbdk">
+      <ref role="3UCbd9" node="1eyDnoVKPo8" resolve="1: my easy world" />
+    </node>
     <node concept="1ywVZ$" id="1eyDnoVKPoC" role="1yx1lp">
       <property role="TrG5h" value="sunflower field" />
       <node concept="1ywVSF" id="1eyDnoVKPoP" role="1yxRbN">

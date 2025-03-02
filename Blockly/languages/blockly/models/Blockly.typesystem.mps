@@ -88,8 +88,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -102,75 +112,79 @@
   <node concept="18kY7G" id="1eyDnoVJ_oe">
     <property role="TrG5h" value="RecursiveDefinition" />
     <node concept="3clFbS" id="1eyDnoVJ_of" role="18ibNy">
-      <node concept="3clFbF" id="1eyDnoVJXmV" role="3cqZAp">
-        <node concept="2OqwBi" id="1eyDnoVK4kG" role="3clFbG">
-          <node concept="2OqwBi" id="1eyDnoVK0cL" role="2Oq$k0">
-            <node concept="2OqwBi" id="1eyDnoVJXzO" role="2Oq$k0">
-              <node concept="1YBJjd" id="1eyDnoVJXmT" role="2Oq$k0">
-                <ref role="1YBMHb" node="1eyDnoVJ_oh" resolve="shapeType" />
+      <node concept="1X3_iC" id="5keHOqLgIcX" role="lGtFl">
+        <property role="3V$3am" value="statement" />
+        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+        <node concept="3clFbF" id="1eyDnoVJXmV" role="8Wnug">
+          <node concept="2OqwBi" id="1eyDnoVK4kG" role="3clFbG">
+            <node concept="2OqwBi" id="1eyDnoVK0cL" role="2Oq$k0">
+              <node concept="2OqwBi" id="1eyDnoVJXzO" role="2Oq$k0">
+                <node concept="1YBJjd" id="1eyDnoVJXmT" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1eyDnoVJ_oh" resolve="shapeType" />
+                </node>
+                <node concept="3Tsc0h" id="1eyDnoVJY1n" role="2OqNvi">
+                  <ref role="3TtcxE" to="95rv:Z8IC1HjWxN" resolve="shapes" />
+                </node>
               </node>
-              <node concept="3Tsc0h" id="1eyDnoVJY1n" role="2OqNvi">
-                <ref role="3TtcxE" to="95rv:Z8IC1HjWxN" resolve="shapes" />
+              <node concept="v3k3i" id="1eyDnoVK3Cm" role="2OqNvi">
+                <node concept="chp4Y" id="1eyDnoVK3Dg" role="v3oSu">
+                  <ref role="cht4Q" to="95rv:Z8IC1HiKiF" resolve="TypedShape" />
+                </node>
               </node>
             </node>
-            <node concept="v3k3i" id="1eyDnoVK3Cm" role="2OqNvi">
-              <node concept="chp4Y" id="1eyDnoVK3Dg" role="v3oSu">
-                <ref role="cht4Q" to="95rv:Z8IC1HiKiF" resolve="TypedShape" />
-              </node>
-            </node>
-          </node>
-          <node concept="2es0OD" id="1eyDnoVK52e" role="2OqNvi">
-            <node concept="1bVj0M" id="1eyDnoVK52g" role="23t8la">
-              <node concept="3clFbS" id="1eyDnoVK52h" role="1bW5cS">
-                <node concept="3clFbJ" id="1eyDnoVK58t" role="3cqZAp">
-                  <node concept="17R0WA" id="1eyDnoVK6SD" role="3clFbw">
-                    <node concept="1YBJjd" id="1eyDnoVK6Vp" role="3uHU7w">
-                      <ref role="1YBMHb" node="1eyDnoVJ_oh" resolve="shapeType" />
-                    </node>
-                    <node concept="2OqwBi" id="1eyDnoVK5oR" role="3uHU7B">
-                      <node concept="37vLTw" id="1eyDnoVK5aU" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
+            <node concept="2es0OD" id="1eyDnoVK52e" role="2OqNvi">
+              <node concept="1bVj0M" id="1eyDnoVK52g" role="23t8la">
+                <node concept="3clFbS" id="1eyDnoVK52h" role="1bW5cS">
+                  <node concept="3clFbJ" id="1eyDnoVK58t" role="3cqZAp">
+                    <node concept="17R0WA" id="1eyDnoVK6SD" role="3clFbw">
+                      <node concept="1YBJjd" id="1eyDnoVK6Vp" role="3uHU7w">
+                        <ref role="1YBMHb" node="1eyDnoVJ_oh" resolve="shapeType" />
                       </node>
-                      <node concept="3TrEf2" id="1eyDnoVK6gv" role="2OqNvi">
-                        <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbS" id="1eyDnoVK58v" role="3clFbx">
-                    <node concept="2MkqsV" id="1eyDnoVJGcK" role="3cqZAp">
-                      <node concept="3cpWs3" id="1eyDnoVKC8E" role="2MkJ7o">
-                        <node concept="Xl_RD" id="1eyDnoVKCcl" role="3uHU7w">
-                          <property role="Xl_RC" value="' is yet.\nYou haven't finished defining it and I don't understand recursive definitions." />
+                      <node concept="2OqwBi" id="1eyDnoVK5oR" role="3uHU7B">
+                        <node concept="37vLTw" id="1eyDnoVK5aU" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
                         </node>
-                        <node concept="3cpWs3" id="1eyDnoVK_3e" role="3uHU7B">
-                          <node concept="Xl_RD" id="1eyDnoVJGcZ" role="3uHU7B">
-                            <property role="Xl_RC" value="Sorry, but at this point I don't know what '" />
+                        <node concept="3TrEf2" id="1eyDnoVK6gv" role="2OqNvi">
+                          <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="1eyDnoVK58v" role="3clFbx">
+                      <node concept="2MkqsV" id="1eyDnoVJGcK" role="3cqZAp">
+                        <node concept="3cpWs3" id="1eyDnoVKC8E" role="2MkJ7o">
+                          <node concept="Xl_RD" id="1eyDnoVKCcl" role="3uHU7w">
+                            <property role="Xl_RC" value="' is yet.\nYou haven't finished defining it and I don't understand recursive definitions." />
                           </node>
-                          <node concept="2OqwBi" id="1eyDnoVKANe" role="3uHU7w">
-                            <node concept="2OqwBi" id="1eyDnoVK_Ud" role="2Oq$k0">
-                              <node concept="37vLTw" id="1eyDnoVK_lU" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
-                              </node>
-                              <node concept="3TrEf2" id="1eyDnoVKAnA" role="2OqNvi">
-                                <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
-                              </node>
+                          <node concept="3cpWs3" id="1eyDnoVK_3e" role="3uHU7B">
+                            <node concept="Xl_RD" id="1eyDnoVJGcZ" role="3uHU7B">
+                              <property role="Xl_RC" value="Sorry, but at this point I don't know what '" />
                             </node>
-                            <node concept="3TrcHB" id="1eyDnoVKB55" role="2OqNvi">
-                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            <node concept="2OqwBi" id="1eyDnoVKANe" role="3uHU7w">
+                              <node concept="2OqwBi" id="1eyDnoVK_Ud" role="2Oq$k0">
+                                <node concept="37vLTw" id="1eyDnoVK_lU" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
+                                </node>
+                                <node concept="3TrEf2" id="1eyDnoVKAnA" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
+                                </node>
+                              </node>
+                              <node concept="3TrcHB" id="1eyDnoVKB55" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
                             </node>
                           </node>
                         </node>
-                      </node>
-                      <node concept="37vLTw" id="1eyDnoVK7fF" role="1urrMF">
-                        <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
+                        <node concept="37vLTw" id="1eyDnoVK7fF" role="1urrMF">
+                          <ref role="3cqZAo" node="1eyDnoVK52i" resolve="typedShape" />
+                        </node>
                       </node>
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="gl6BB" id="1eyDnoVK52i" role="1bW2Oz">
-                <property role="TrG5h" value="typedShape" />
-                <node concept="2jxLKc" id="1eyDnoVK52j" role="1tU5fm" />
+                <node concept="gl6BB" id="1eyDnoVK52i" role="1bW2Oz">
+                  <property role="TrG5h" value="typedShape" />
+                  <node concept="2jxLKc" id="1eyDnoVK52j" role="1tU5fm" />
+                </node>
               </node>
             </node>
           </node>
