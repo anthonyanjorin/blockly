@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Enabled fractals as recursive calls.">
-      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/blockly/models/Blockly.typesystem.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/Momo.mpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/generator/templates/Momo.generator.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.behavior.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.constraints.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.editor.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.structure.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.typesystem.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Momo.sandbox/Momo.sandbox.msd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Momo.sandbox/models/Momo.sandbox.examples.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +25,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="d94f0771-70e4-45a1-a22f-1c45bc17fbf6/r:3a5faa86-f0ea-4557-871c-f2627740fa71(TempModuled94f0771-70e4-45a1-a22f-1c45bc17fbf6/ConsoleModel_1319685808691708)">
+            <model ref="21ff8163-7162-44fb-b143-f98cb9d50b98/r:56689dfd-a8ab-4adf-8bd3-afc76f94c986(TempModule21ff8163-7162-44fb-b143-f98cb9d50b98/ConsoleModel_1381528021697537)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -36,11 +45,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5keHOqLgFKT">
-                <node concept="3balQm" id="5keHOqLgFKU" role="aymYE" />
-                <node concept="2Clz$F" id="5keHOqLgFKV" role="aymYO" />
-                <node concept="2_V_lH" id="5keHOqLgFKW" role="1PhJh3">
-                  <ref role="2_V_lI" node="5keHOqLgFKV" />
+              <node concept="aymSD" id="5keHOqM63ty">
+                <node concept="3balQm" id="5keHOqM63tz" role="aymYE" />
+                <node concept="2Clz$F" id="5keHOqM63t$" role="aymYO" />
+                <node concept="2_V_lH" id="5keHOqM63t_" role="1PhJh3">
+                  <ref role="2_V_lI" node="5keHOqM63t$" />
                 </node>
               </node>
             </model>
@@ -147,31 +156,6 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
-              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
-              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
-              <item name="r:70cc4570-9816-4f39-952e-eea40bcb17f4(Blockly.fractals) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.fractals.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
-              <item name="'Blockly'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
-              <item name="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/Blockly.tasks.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
             </path>
           </expand>
           <select />

@@ -3,7 +3,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Blockly.sandbox/Blockly.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Momo/Momo.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/blockly/Blockly.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Momo.sandbox/Momo.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
