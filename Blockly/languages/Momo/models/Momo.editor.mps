@@ -442,7 +442,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5keHOqM6IFv">
-    <ref role="1XX52x" to="zom:5keHOqM63u2" resolve="PlanItem" />
+    <ref role="1XX52x" to="zom:5keHOqM63u2" resolve="Slot" />
     <node concept="3EZMnI" id="5keHOqM6IFZ" role="2wV5jI">
       <node concept="2iRfu4" id="5keHOqM7Vmw" role="2iSdaV" />
       <node concept="3F0ifn" id="5keHOqM6IG2" role="3EZMnx">

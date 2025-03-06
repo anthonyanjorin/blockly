@@ -48,6 +48,11 @@
       <property role="1yxs84" value="5" />
       <ref role="1yAFz_" to="6vd5:1eyDnoVJ_i6" resolve="brown" />
     </node>
+    <node concept="1yxRPX" id="5St6CrfFwnb" role="1ywVSf">
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yAFz_" to="6vd5:1eyDnoVIG5E" resolve="blue" />
+    </node>
   </node>
   <node concept="3qu2lB" id="1eyDnoVKPo8">
     <property role="1ywVNE" value="20" />

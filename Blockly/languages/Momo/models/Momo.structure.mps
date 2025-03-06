@@ -14,7 +14,6 @@
         <property id="672037151186491528" name="presentation" index="1L1pqM" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
-        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
@@ -63,21 +62,21 @@
       <property role="IQ2ns" value="6129037657161348981" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="teachers" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5keHOqM63tH" resolve="Teacher" />
     </node>
     <node concept="1TJgyj" id="5keHOqM63tQ" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161348982" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="subjects" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5keHOqM63tJ" resolve="Subject" />
     </node>
     <node concept="1TJgyj" id="5keHOqM63tT" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161348985" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="classes" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5keHOqM63tR" resolve="Class" />
     </node>
   </node>
@@ -90,35 +89,35 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="monday" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5keHOqM63u2" resolve="PlanItem" />
+      <ref role="20lvS9" node="5keHOqM63u2" resolve="Slot" />
     </node>
     <node concept="1TJgyj" id="5keHOqM6Bfs" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161495516" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="tuesday" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5keHOqM63u2" resolve="PlanItem" />
+      <ref role="20lvS9" node="5keHOqM63u2" resolve="Slot" />
     </node>
     <node concept="1TJgyj" id="5keHOqM6Bfu" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161495518" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="wednesday" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5keHOqM63u2" resolve="PlanItem" />
+      <ref role="20lvS9" node="5keHOqM63u2" resolve="Slot" />
     </node>
     <node concept="1TJgyj" id="5keHOqM6Bfx" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161495521" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="thursday" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5keHOqM63u2" resolve="PlanItem" />
+      <ref role="20lvS9" node="5keHOqM63u2" resolve="Slot" />
     </node>
     <node concept="1TJgyj" id="5keHOqM6Bfy" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161495522" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="friday" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5keHOqM63u2" resolve="PlanItem" />
+      <ref role="20lvS9" node="5keHOqM63u2" resolve="Slot" />
     </node>
   </node>
   <node concept="1TIwiD" id="5keHOqM63tH">
@@ -179,8 +178,7 @@
   </node>
   <node concept="25R3W" id="5keHOqM63tV">
     <property role="3F6X1D" value="6129037657161348987" />
-    <property role="TrG5h" value="TimeSlot" />
-    <ref role="1H5jkz" node="5keHOqM63u0" resolve="UNDECIDED" />
+    <property role="TrG5h" value="TimeBlock" />
     <node concept="25R33" id="5keHOqM63tW" role="25R1y">
       <property role="3tVfz5" value="6129037657161348988" />
       <property role="TrG5h" value="FIRST_BLOCK" />
@@ -201,26 +199,19 @@
       <property role="TrG5h" value="FOURTH_BLOCK" />
       <property role="1L1pqM" value="fourth block" />
     </node>
-    <node concept="25R33" id="5keHOqM63u0" role="25R1y">
-      <property role="3tVfz5" value="6129037657161348992" />
-      <property role="TrG5h" value="UNDECIDED" />
-      <property role="1L1pqM" value="undecided" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5keHOqM63u2">
     <property role="EcuMT" value="6129037657161348994" />
-    <property role="TrG5h" value="PlanItem" />
+    <property role="TrG5h" value="Slot" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="5keHOqM63u4" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161348996" />
       <property role="20kJfa" value="subject" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5keHOqM63tJ" resolve="Subject" />
     </node>
     <node concept="1TJgyj" id="5keHOqM63u5" role="1TKVEi">
       <property role="IQ2ns" value="6129037657161348997" />
       <property role="20kJfa" value="teacher" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5keHOqM63tH" resolve="Teacher" />
     </node>
     <node concept="1TJgyi" id="5keHOqM63u3" role="1TKVEl">
