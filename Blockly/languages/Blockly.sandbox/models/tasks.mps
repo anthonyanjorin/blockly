@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cd4b7282-7bfc-4843-b521-e69db598cd80(Blockly.tasks)">
+<model ref="r:cd4b7282-7bfc-4843-b521-e69db598cd80(tasks)">
   <persistence version="9" />
   <languages>
     <use id="3753242a-9870-48a1-8400-8b7ef1608341" name="Blockly" version="0" />
@@ -47,11 +47,6 @@
       <property role="1yxsbr" value="6" />
       <property role="1yxs84" value="5" />
       <ref role="1yAFz_" to="6vd5:1eyDnoVJ_i6" resolve="brown" />
-    </node>
-    <node concept="1yxRPX" id="5St6CrfFwnb" role="1ywVSf">
-      <property role="1yxsbr" value="0" />
-      <property role="1yxs84" value="0" />
-      <ref role="1yAFz_" to="6vd5:1eyDnoVIG5E" resolve="blue" />
     </node>
   </node>
   <node concept="3qu2lB" id="1eyDnoVKPo8">
@@ -194,6 +189,59 @@
   <node concept="3qu2lB" id="1eyDnoVLgOA">
     <property role="1ywVNE" value="10" />
     <property role="TrG5h" value="4: my flower+paint world" />
+  </node>
+  <node concept="3qu2lB" id="5keHOqJHzrZ">
+    <property role="1ywVNE" value="200" />
+    <property role="TrG5h" value="5: my fractal world" />
+    <node concept="1ywVZ$" id="5keHOqJHzsu" role="1yx1lp">
+      <property role="TrG5h" value="kite fractal" />
+      <node concept="1ywVSF" id="5keHOqJHGva" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yxtvM" node="5keHOqJHzsu" resolve="kite fractal" />
+      </node>
+      <node concept="1yxRPX" id="5keHOqJHGv6" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="1" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5E" resolve="blue" />
+      </node>
+      <node concept="1yxRPX" id="5keHOqJHGvd" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HyeWd" resolve="green" />
+      </node>
+      <node concept="1yxRPX" id="5keHOqLqbRc" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="1" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1Hl7RD" resolve="randomly coloured" />
+      </node>
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLquhc" role="1yx1lp">
+      <property role="TrG5h" value="staircase fractal" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqL_VR3" role="1yx1lp">
+      <property role="TrG5h" value="diagonal fractal" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLDmjR" role="1yx1lp">
+      <property role="TrG5h" value="K fractal" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLAjco" role="1yx1lp">
+      <property role="TrG5h" value="Sierspinki triangle" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLAmpy" role="1yx1lp">
+      <property role="TrG5h" value="Vicsek snowflake" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLDgTU" role="1yx1lp">
+      <property role="TrG5h" value="Vicsek cross" />
+    </node>
+    <node concept="1ywVZ$" id="5keHOqLCC8Q" role="1yx1lp">
+      <property role="TrG5h" value="Sierpinksi carpet" />
+    </node>
+    <node concept="1ywVSF" id="5keHOqJHzsn" role="1ywVSf">
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="5keHOqJHzsu" resolve="kite fractal" />
+    </node>
   </node>
 </model>
 

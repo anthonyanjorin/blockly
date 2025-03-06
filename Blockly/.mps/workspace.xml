@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Enabled fractals as recursive calls.">
-      <change afterPath="$PROJECT_DIR$/languages/Momo/Momo.mpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/generator/templates/Momo.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Momo/models/Momo.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/Momo.sandbox/Momo.sandbox.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/Momo.sandbox/models/Momo.sandbox.examples.mps" afterDir="false" />
+    <list default="true" id="533e15f3-da1a-456b-a89b-6565d1727ab0" name="Changes" comment="Added Momo as school planner language.">
+      <change afterPath="$PROJECT_DIR$/solutions/Blockly.cheat/Blockly.cheat.msd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Momo.cheat/Momo.cheat.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.fractals.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Blockly.cheat/models/solved_tasks.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Blockly.sandbox/models/Blockly.tasks.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Blockly.sandbox/models/tasks.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +152,17 @@
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
             </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Blockly] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Blockly.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:cd4b7282-7bfc-4843-b521-e69db598cd80(tasks) in IdeaFile[path: /Users/anthonyanjorin/git/blockly/Blockly/languages/Blockly.sandbox/models/tasks.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740943718900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Momo as school planner language.">
+      <option name="closed" value="true" />
+      <created>1741206545426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741206545426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -373,6 +387,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added demo video" />
     <MESSAGE value="Enabled fractals as recursive calls." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabled fractals as recursive calls." />
+    <MESSAGE value="Added Momo as school planner language." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Momo as school planner language." />
   </component>
 </project>
