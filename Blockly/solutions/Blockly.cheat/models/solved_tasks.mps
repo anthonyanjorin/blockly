@@ -48,7 +48,7 @@
       <node concept="1ywVSF" id="5keHOqJHGva" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqJHzsu" resolve="simple fractal" />
+        <ref role="1yxtvM" node="5keHOqJHzsu" resolve="kite fractal" />
       </node>
       <node concept="1yxRPX" id="5keHOqJHGv6" role="1yxRbN">
         <property role="1yxsbr" value="0" />
@@ -86,7 +86,7 @@
       <node concept="1ywVSF" id="5keHOqLquhi" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLquhc" resolve="simple fractal2" />
+        <ref role="1yxtvM" node="5keHOqLquhc" resolve="staircase fractal" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqL_VR3" role="1yx1lp">
@@ -104,12 +104,12 @@
       <node concept="1ywVSF" id="5keHOqL_VRb" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqL_VR3" resolve="simple fractal3" />
+        <ref role="1yxtvM" node="5keHOqL_VR3" resolve="diagonal fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqL_VRc" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqL_VR3" resolve="simple fractal3" />
+        <ref role="1yxtvM" node="5keHOqL_VR3" resolve="diagonal fractal" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqLDmjR" role="1yx1lp">
@@ -132,40 +132,40 @@
       <node concept="1ywVSF" id="5keHOqLDmjX" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDmjZ" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDmk0" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDmk1" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDmk2" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDmk3" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="Kora fractal" />
+        <ref role="1yxtvM" node="5keHOqLDmjR" resolve="K fractal" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqLAjco" role="1yx1lp">
-      <property role="TrG5h" value="Sierspinki triangle" />
+      <property role="TrG5h" value="Sierpinski triangle" />
       <node concept="1ywVSF" id="5keHOqLAjcu" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLAjco" resolve="crazy fractal" />
+        <ref role="1yxtvM" node="5keHOqLAjco" resolve="Sierpinski triangle" />
       </node>
       <node concept="1yxRPX" id="5keHOqLAjcq" role="1yxRbN">
         <property role="1yxsbr" value="0" />
@@ -175,12 +175,12 @@
       <node concept="1ywVSF" id="5keHOqLAjcr" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLAjco" resolve="crazy fractal" />
+        <ref role="1yxtvM" node="5keHOqLAjco" resolve="Sierpinski triangle" />
       </node>
       <node concept="1ywVSF" id="5keHOqLAjcs" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLAjco" resolve="crazy fractal" />
+        <ref role="1yxtvM" node="5keHOqLAjco" resolve="Sierpinski triangle" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqLAmpy" role="1yx1lp">
@@ -208,27 +208,27 @@
       <node concept="1ywVSF" id="5keHOqLAo4d" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="box fractal" />
+        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="Vicsek snowflake" />
       </node>
       <node concept="1ywVSF" id="5keHOqLAo4f" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="box fractal" />
+        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="Vicsek snowflake" />
       </node>
       <node concept="1ywVSF" id="5keHOqLAo4g" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="box fractal" />
+        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="Vicsek snowflake" />
       </node>
       <node concept="1ywVSF" id="5keHOqLAo4h" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="box fractal" />
+        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="Vicsek snowflake" />
       </node>
       <node concept="1ywVSF" id="5keHOqLAo4i" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="box fractal" />
+        <ref role="1yxtvM" node="5keHOqLAmpy" resolve="Vicsek snowflake" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqLDgTU" role="1yx1lp">
@@ -256,70 +256,70 @@
       <node concept="1ywVSF" id="5keHOqLDgTZ" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek snowflake" />
+        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek cross" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDgU0" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek snowflake" />
+        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek cross" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDgU1" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek snowflake" />
+        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek cross" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDgU2" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek snowflake" />
+        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek cross" />
       </node>
       <node concept="1ywVSF" id="5keHOqLDgU3" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek snowflake" />
+        <ref role="1yxtvM" node="5keHOqLDgTU" resolve="Vicsek cross" />
       </node>
     </node>
     <node concept="1ywVZ$" id="5keHOqLCC8Q" role="1yx1lp">
-      <property role="TrG5h" value="Sierpinksi carpet" />
+      <property role="TrG5h" value="Sierpinski carpet" />
       <node concept="1ywVSF" id="5keHOqLCC8S" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8U" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8V" role="1yxRbN">
         <property role="1yxsbr" value="0" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8W" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8X" role="1yxRbN">
         <property role="1yxsbr" value="1" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8Y" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="0" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC8Z" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="1" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1ywVSF" id="5keHOqLCC90" role="1yxRbN">
         <property role="1yxsbr" value="2" />
         <property role="1yxs84" value="2" />
-        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinksi carpet" />
+        <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
       </node>
       <node concept="1yxRPX" id="5keHOqLCC92" role="1yxRbN">
         <property role="1yxsbr" value="1" />
@@ -330,7 +330,7 @@
     <node concept="1ywVSF" id="5keHOqJHzsn" role="1ywVSf">
       <property role="1yxsbr" value="0" />
       <property role="1yxs84" value="0" />
-      <ref role="1yxtvM" node="5keHOqLAjco" resolve="Sierspinki triangle" />
+      <ref role="1yxtvM" node="5keHOqLCC8Q" resolve="Sierpinski carpet" />
     </node>
   </node>
   <node concept="3qu2lB" id="1eyDnoVKPo2">

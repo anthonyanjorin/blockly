@@ -217,7 +217,7 @@
   <node concept="1TIwiD" id="5keHOqJFwge">
     <property role="EcuMT" value="6129037657120834574" />
     <property role="TrG5h" value="WorldRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5keHOqJFwgf" role="1TKVEi">
       <property role="IQ2ns" value="6129037657120834575" />
       <property role="20kJfa" value="world" />

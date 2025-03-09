@@ -57,6 +57,10 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
+        <reference id="5455284157994012188" name="link" index="2pIpSl" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
+      </concept>
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
         <child id="1595412875168045201" name="initValue" index="28ntcv" />
@@ -71,14 +75,17 @@
       <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
         <child id="6985522012210254363" name="expression" index="WxPPp" />
       </concept>
+      <concept id="8182547171709738802" name="jetbrains.mps.lang.quotation.structure.NodeBuilderList" flags="nn" index="36be1Y">
+        <child id="8182547171709738803" name="nodes" index="36be1Z" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
-        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
-      </concept>
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
+      <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
+        <reference id="1240170836027" name="enum" index="2ZWj4r" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -112,105 +119,75 @@
       <node concept="3Tm1VV" id="1Q$zUNG4zNX" role="1B3o_S" />
       <node concept="3cqZAl" id="1Q$zUNG4zOg" role="3clF45" />
       <node concept="3clFbS" id="1Q$zUNG4zNZ" role="3clF47">
-        <node concept="3clFbF" id="1Q$zUNG4s2w" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4uP6" role="3clFbG">
-            <node concept="37vLTw" id="1Q$zUNG4$RW" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Q$zUNG4$An" resolve="day" />
+        <node concept="3clFbF" id="5keHOqMhnEK" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhqdb" role="3clFbG">
+            <node concept="2OqwBi" id="5keHOqMhnFo" role="2Oq$k0">
+              <node concept="13iPFW" id="5keHOqMhnEJ" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="5keHOqMhnH5" role="2OqNvi">
+                <ref role="3TtcxE" to="zom:5keHOqMdSgT" resolve="dayPlans" />
+              </node>
             </node>
-            <node concept="TSZUe" id="1Q$zUNG4y7a" role="2OqNvi">
-              <node concept="2pJPEk" id="1Q$zUNG4yik" role="25WWJ7">
-                <node concept="2pJPED" id="1Q$zUNG4yim" role="2pJPEn">
-                  <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
-                  <node concept="2pJxcG" id="1Q$zUNG4ywa" role="2pJxcM">
-                    <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
-                    <node concept="WxPPo" id="1Q$zUNG4y$1" role="28ntcv">
-                      <node concept="2OqwBi" id="1Q$zUNG4zkB" role="WxPPp">
-                        <node concept="1XH99k" id="1Q$zUNG4yzZ" role="2Oq$k0">
-                          <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeSlot" />
-                        </node>
-                        <node concept="2ViDtV" id="1Q$zUNG4zHA" role="2OqNvi">
-                          <ref role="2ViDtZ" to="zom:5keHOqM63tW" resolve="FIRST_BLOCK" />
-                        </node>
+            <node concept="TSZUe" id="5keHOqMhugB" role="2OqNvi">
+              <node concept="2pJPEk" id="5keHOqMhumu" role="25WWJ7">
+                <node concept="2pJPED" id="5keHOqMhumw" role="2pJPEn">
+                  <ref role="2pJxaS" to="zom:5keHOqMdSgU" resolve="DayPlan" />
+                  <node concept="2pJxcG" id="5keHOqMhu$W" role="2pJxcM">
+                    <ref role="2pJxcJ" to="zom:5keHOqMdSgV" resolve="day" />
+                    <node concept="WxPPo" id="5keHOqMhuDs" role="28ntcv">
+                      <node concept="37vLTw" id="5keHOqMhuDq" role="WxPPp">
+                        <ref role="3cqZAo" node="5keHOqMhlAD" resolve="day" />
                       </node>
                     </node>
                   </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1Q$zUNG4_3J" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4_3K" role="3clFbG">
-            <node concept="37vLTw" id="1Q$zUNG4_3L" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Q$zUNG4$An" resolve="day" />
-            </node>
-            <node concept="TSZUe" id="1Q$zUNG4_3M" role="2OqNvi">
-              <node concept="2pJPEk" id="1Q$zUNG4_3N" role="25WWJ7">
-                <node concept="2pJPED" id="1Q$zUNG4_3O" role="2pJPEn">
-                  <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
-                  <node concept="2pJxcG" id="1Q$zUNG4_3P" role="2pJxcM">
-                    <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
-                    <node concept="WxPPo" id="1Q$zUNG4_3Q" role="28ntcv">
-                      <node concept="2OqwBi" id="1Q$zUNG4_3R" role="WxPPp">
-                        <node concept="1XH99k" id="1Q$zUNG4_3S" role="2Oq$k0">
-                          <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeSlot" />
-                        </node>
-                        <node concept="2ViDtV" id="1Q$zUNG4_3T" role="2OqNvi">
-                          <ref role="2ViDtZ" to="zom:5keHOqM63tX" resolve="SECOND_BLOCK" />
+                  <node concept="2pIpSj" id="5keHOqMhuR3" role="2pJxcM">
+                    <ref role="2pIpSl" to="zom:5keHOqMdSgW" resolve="slots" />
+                    <node concept="36be1Y" id="5keHOqMhwLE" role="28nt2d">
+                      <node concept="2pJPED" id="5keHOqMhuZc" role="36be1Z">
+                        <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
+                        <node concept="2pJxcG" id="5keHOqMhv9c" role="2pJxcM">
+                          <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
+                          <node concept="WxPPo" id="5keHOqMhvdK" role="28ntcv">
+                            <node concept="2OqwBi" id="5keHOqMhwa6" role="WxPPp">
+                              <node concept="1XH99k" id="5keHOqMhvdI" role="2Oq$k0">
+                                <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeBlock" />
+                              </node>
+                              <node concept="2ViDtV" id="5keHOqMhwB4" role="2OqNvi">
+                                <ref role="2ViDtZ" to="zom:5keHOqM63tW" resolve="FIRST_BLOCK" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1Q$zUNG4_hf" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4_hg" role="3clFbG">
-            <node concept="37vLTw" id="1Q$zUNG4_hh" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Q$zUNG4$An" resolve="day" />
-            </node>
-            <node concept="TSZUe" id="1Q$zUNG4_hi" role="2OqNvi">
-              <node concept="2pJPEk" id="1Q$zUNG4_hj" role="25WWJ7">
-                <node concept="2pJPED" id="1Q$zUNG4_hk" role="2pJPEn">
-                  <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
-                  <node concept="2pJxcG" id="1Q$zUNG4_hl" role="2pJxcM">
-                    <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
-                    <node concept="WxPPo" id="1Q$zUNG4_hm" role="28ntcv">
-                      <node concept="2OqwBi" id="1Q$zUNG4_hn" role="WxPPp">
-                        <node concept="1XH99k" id="1Q$zUNG4_ho" role="2Oq$k0">
-                          <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeSlot" />
-                        </node>
-                        <node concept="2ViDtV" id="1Q$zUNG4_hp" role="2OqNvi">
-                          <ref role="2ViDtZ" to="zom:5keHOqM63tY" resolve="THIRD_BLOCK" />
+                      <node concept="2pJPED" id="5keHOqMhx5s" role="36be1Z">
+                        <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
+                        <node concept="2pJxcG" id="5keHOqMhx5t" role="2pJxcM">
+                          <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
+                          <node concept="WxPPo" id="5keHOqMhx5u" role="28ntcv">
+                            <node concept="2OqwBi" id="5keHOqMhx5v" role="WxPPp">
+                              <node concept="1XH99k" id="5keHOqMhx5w" role="2Oq$k0">
+                                <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeBlock" />
+                              </node>
+                              <node concept="2ViDtV" id="5keHOqMhx5x" role="2OqNvi">
+                                <ref role="2ViDtZ" to="zom:5keHOqM63tX" resolve="SECOND_BLOCK" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1Q$zUNG4_qE" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4_qF" role="3clFbG">
-            <node concept="37vLTw" id="1Q$zUNG4_qG" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Q$zUNG4$An" resolve="day" />
-            </node>
-            <node concept="TSZUe" id="1Q$zUNG4_qH" role="2OqNvi">
-              <node concept="2pJPEk" id="1Q$zUNG4_qI" role="25WWJ7">
-                <node concept="2pJPED" id="1Q$zUNG4_qJ" role="2pJPEn">
-                  <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
-                  <node concept="2pJxcG" id="1Q$zUNG4_qK" role="2pJxcM">
-                    <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
-                    <node concept="WxPPo" id="1Q$zUNG4_qL" role="28ntcv">
-                      <node concept="2OqwBi" id="1Q$zUNG4_qM" role="WxPPp">
-                        <node concept="1XH99k" id="1Q$zUNG4_qN" role="2Oq$k0">
-                          <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeSlot" />
-                        </node>
-                        <node concept="2ViDtV" id="1Q$zUNG4_qO" role="2OqNvi">
-                          <ref role="2ViDtZ" to="zom:5keHOqM63tZ" resolve="FOURTH_BLOCK" />
+                      <node concept="2pJPED" id="5keHOqMhxeA" role="36be1Z">
+                        <ref role="2pJxaS" to="zom:5keHOqM63u2" resolve="Slot" />
+                        <node concept="2pJxcG" id="5keHOqMhxeB" role="2pJxcM">
+                          <ref role="2pJxcJ" to="zom:5keHOqM63u3" resolve="timeSlot" />
+                          <node concept="WxPPo" id="5keHOqMhxeC" role="28ntcv">
+                            <node concept="2OqwBi" id="5keHOqMhxeD" role="WxPPp">
+                              <node concept="1XH99k" id="5keHOqMhxeE" role="2Oq$k0">
+                                <ref role="1XH99l" to="zom:5keHOqM63tV" resolve="TimeBlock" />
+                              </node>
+                              <node concept="2ViDtV" id="5keHOqMhxeF" role="2OqNvi">
+                                <ref role="2ViDtZ" to="zom:5keHOqM63tY" resolve="THIRD_BLOCK" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -221,80 +198,90 @@
           </node>
         </node>
       </node>
-      <node concept="37vLTG" id="1Q$zUNG4$An" role="3clF46">
+      <node concept="37vLTG" id="5keHOqMhlAD" role="3clF46">
         <property role="TrG5h" value="day" />
-        <node concept="2I9FWS" id="1Q$zUNG4$Ao" role="1tU5fm">
-          <ref role="2I9WkF" to="zom:5keHOqM63u2" resolve="Slot" />
+        <node concept="2ZThk1" id="5keHOqMhlAE" role="1tU5fm">
+          <ref role="2ZWj4r" to="zom:5keHOqMdlAu" resolve="DAY" />
         </node>
       </node>
     </node>
     <node concept="13hLZK" id="1Q$zUNG4s2d" role="13h7CW">
       <node concept="3clFbS" id="1Q$zUNG4s2e" role="2VODD2">
-        <node concept="3clFbF" id="1Q$zUNG4zP3" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4zYt" role="3clFbG">
-            <node concept="13iPFW" id="1Q$zUNG4zP2" role="2Oq$k0" />
-            <node concept="2qgKlT" id="1Q$zUNG4$dU" role="2OqNvi">
+        <node concept="3clFbF" id="5keHOqMhm0L" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhmar" role="3clFbG">
+            <node concept="13iPFW" id="5keHOqMhm0K" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5keHOqMhmi7" role="2OqNvi">
               <ref role="37wK5l" node="1Q$zUNG4zNW" resolve="fillDay" />
-              <node concept="2OqwBi" id="1Q$zUNG4$sl" role="37wK5m">
-                <node concept="13iPFW" id="1Q$zUNG4$iN" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1Q$zUNG4$$f" role="2OqNvi">
-                  <ref role="3TtcxE" to="zom:5keHOqM63u6" resolve="monday" />
+              <node concept="2OqwBi" id="5keHOqMhngU" role="37wK5m">
+                <node concept="1XH99k" id="5keHOqMhmmw" role="2Oq$k0">
+                  <ref role="1XH99l" to="zom:5keHOqMdlAu" resolve="DAY" />
+                </node>
+                <node concept="2ViDtV" id="5keHOqMhnE4" role="2OqNvi">
+                  <ref role="2ViDtZ" to="zom:5keHOqMdlAv" resolve="MONDAY" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1Q$zUNG4BTU" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4BTV" role="3clFbG">
-            <node concept="13iPFW" id="1Q$zUNG4BTW" role="2Oq$k0" />
-            <node concept="2qgKlT" id="1Q$zUNG4BTX" role="2OqNvi">
+        <node concept="3clFbF" id="5keHOqMhxS6" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhxS7" role="3clFbG">
+            <node concept="13iPFW" id="5keHOqMhxS8" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5keHOqMhxS9" role="2OqNvi">
               <ref role="37wK5l" node="1Q$zUNG4zNW" resolve="fillDay" />
-              <node concept="2OqwBi" id="1Q$zUNG4BTY" role="37wK5m">
-                <node concept="13iPFW" id="1Q$zUNG4BTZ" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1Q$zUNG4BU0" role="2OqNvi">
-                  <ref role="3TtcxE" to="zom:5keHOqM6Bfs" />
+              <node concept="2OqwBi" id="5keHOqMhxSa" role="37wK5m">
+                <node concept="1XH99k" id="5keHOqMhxSb" role="2Oq$k0">
+                  <ref role="1XH99l" to="zom:5keHOqMdlAu" resolve="DAY" />
+                </node>
+                <node concept="2ViDtV" id="5keHOqMhxSc" role="2OqNvi">
+                  <ref role="2ViDtZ" to="zom:5keHOqMdlAw" resolve="TUESDAY" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1Q$zUNG4BWX" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4BWY" role="3clFbG">
-            <node concept="13iPFW" id="1Q$zUNG4BWZ" role="2Oq$k0" />
-            <node concept="2qgKlT" id="1Q$zUNG4BX0" role="2OqNvi">
+        <node concept="3clFbF" id="5keHOqMhxWn" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhxWo" role="3clFbG">
+            <node concept="13iPFW" id="5keHOqMhxWp" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5keHOqMhxWq" role="2OqNvi">
               <ref role="37wK5l" node="1Q$zUNG4zNW" resolve="fillDay" />
-              <node concept="2OqwBi" id="1Q$zUNG4BX1" role="37wK5m">
-                <node concept="13iPFW" id="1Q$zUNG4BX2" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1Q$zUNG4BX3" role="2OqNvi">
-                  <ref role="3TtcxE" to="zom:5keHOqM6Bfu" />
+              <node concept="2OqwBi" id="5keHOqMhxWr" role="37wK5m">
+                <node concept="1XH99k" id="5keHOqMhxWs" role="2Oq$k0">
+                  <ref role="1XH99l" to="zom:5keHOqMdlAu" resolve="DAY" />
+                </node>
+                <node concept="2ViDtV" id="5keHOqMhxWt" role="2OqNvi">
+                  <ref role="2ViDtZ" to="zom:5keHOqMdlAx" resolve="WEDNESDAY" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1Q$zUNG4BZV" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4BZW" role="3clFbG">
-            <node concept="13iPFW" id="1Q$zUNG4BZX" role="2Oq$k0" />
-            <node concept="2qgKlT" id="1Q$zUNG4BZY" role="2OqNvi">
+        <node concept="3clFbF" id="5keHOqMhxYp" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhxYq" role="3clFbG">
+            <node concept="13iPFW" id="5keHOqMhxYr" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5keHOqMhxYs" role="2OqNvi">
               <ref role="37wK5l" node="1Q$zUNG4zNW" resolve="fillDay" />
-              <node concept="2OqwBi" id="1Q$zUNG4BZZ" role="37wK5m">
-                <node concept="13iPFW" id="1Q$zUNG4C00" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1Q$zUNG4C01" role="2OqNvi">
-                  <ref role="3TtcxE" to="zom:5keHOqM6Bfx" />
+              <node concept="2OqwBi" id="5keHOqMhxYt" role="37wK5m">
+                <node concept="1XH99k" id="5keHOqMhxYu" role="2Oq$k0">
+                  <ref role="1XH99l" to="zom:5keHOqMdlAu" resolve="DAY" />
+                </node>
+                <node concept="2ViDtV" id="5keHOqMhxYv" role="2OqNvi">
+                  <ref role="2ViDtZ" to="zom:5keHOqMdlAy" resolve="THURSDAY" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1Q$zUNG4C2a" role="3cqZAp">
-          <node concept="2OqwBi" id="1Q$zUNG4C2b" role="3clFbG">
-            <node concept="13iPFW" id="1Q$zUNG4C2c" role="2Oq$k0" />
-            <node concept="2qgKlT" id="1Q$zUNG4C2d" role="2OqNvi">
+        <node concept="3clFbF" id="5keHOqMhy0L" role="3cqZAp">
+          <node concept="2OqwBi" id="5keHOqMhy0M" role="3clFbG">
+            <node concept="13iPFW" id="5keHOqMhy0N" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5keHOqMhy0O" role="2OqNvi">
               <ref role="37wK5l" node="1Q$zUNG4zNW" resolve="fillDay" />
-              <node concept="2OqwBi" id="1Q$zUNG4C2e" role="37wK5m">
-                <node concept="13iPFW" id="1Q$zUNG4C2f" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1Q$zUNG4C2g" role="2OqNvi">
-                  <ref role="3TtcxE" to="zom:5keHOqM6Bfy" />
+              <node concept="2OqwBi" id="5keHOqMhy0P" role="37wK5m">
+                <node concept="1XH99k" id="5keHOqMhy0Q" role="2Oq$k0">
+                  <ref role="1XH99l" to="zom:5keHOqMdlAu" resolve="DAY" />
+                </node>
+                <node concept="2ViDtV" id="5keHOqMhy0R" role="2OqNvi">
+                  <ref role="2ViDtZ" to="zom:5keHOqMdlAz" resolve="FRIDAY" />
                 </node>
               </node>
             </node>

@@ -114,7 +114,7 @@
   <node concept="1M2fIO" id="5keHOqJEjoA">
     <ref role="1M2myG" to="95rv:Z8IC1HiKiF" resolve="TypedShape" />
     <node concept="1N5Pfh" id="5keHOqJEjoB" role="1Mr941">
-      <ref role="1N5Vy1" to="95rv:Z8IC1HjmPM" />
+      <ref role="1N5Vy1" to="95rv:Z8IC1HjmPM" resolve="typeShape" />
       <node concept="3dgokm" id="5keHOqJEjsN" role="1N6uqs">
         <node concept="3clFbS" id="5keHOqJEjsP" role="2VODD2">
           <node concept="3cpWs8" id="5keHOqJFKkD" role="3cqZAp">
@@ -182,15 +182,15 @@
                         <ref role="3cqZAo" node="5keHOqJFKkG" resolve="containingWorld" />
                       </node>
                       <node concept="3Tsc0h" id="5keHOqJGfYO" role="2OqNvi">
-                        <ref role="3TtcxE" to="95rv:5keHOqJFwgi" />
+                        <ref role="3TtcxE" to="95rv:5keHOqJFwgi" resolve="importedWorlds" />
                       </node>
                     </node>
                     <node concept="13MTOL" id="5keHOqJGfYP" role="2OqNvi">
-                      <ref role="13MTZf" to="95rv:5keHOqJFwgf" />
+                      <ref role="13MTZf" to="95rv:5keHOqJFwgf" resolve="world" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="5keHOqJGfYQ" role="2OqNvi">
-                    <ref role="13MTZf" to="95rv:Z8IC1HjaZp" />
+                    <ref role="13MTZf" to="95rv:Z8IC1HjaZp" resolve="types" />
                   </node>
                 </node>
               </node>
