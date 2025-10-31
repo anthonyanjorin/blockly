@@ -112,7 +112,7 @@
   <node concept="1M2fIO" id="5keHOqMbqfy">
     <ref role="1M2myG" to="zom:5keHOqM63u2" resolve="Slot" />
     <node concept="1N5Pfh" id="5keHOqMbqfz" role="1Mr941">
-      <ref role="1N5Vy1" to="zom:5keHOqM63u5" />
+      <ref role="1N5Vy1" to="zom:5keHOqM63u5" resolve="teacher" />
       <node concept="3dgokm" id="5keHOqMbqhX" role="1N6uqs">
         <node concept="3clFbS" id="5keHOqMbqhZ" role="2VODD2">
           <node concept="3clFbF" id="5keHOqMbP9U" role="3cqZAp">

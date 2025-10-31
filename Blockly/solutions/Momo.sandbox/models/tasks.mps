@@ -331,7 +331,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tR" resolve="Class" />
         <node concept="3F$xvT" id="5keHOqMiC8r" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tF" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tF" resolve="weekPlan" />
           <ref role="3F$xdr" node="5keHOqMiC8s" resolve="wp" />
         </node>
       </node>
@@ -340,7 +340,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tD" resolve="WeekPlan" />
         <node concept="3F$xvT" id="5keHOqMiC8t" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgT" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgT" resolve="dayPlans" />
           <ref role="3F$xdr" node="5keHOqMiC8u" resolve="dp" />
         </node>
       </node>
@@ -349,7 +349,7 @@
         <ref role="3F$xdl" to="zom:5keHOqMdSgU" resolve="DayPlan" />
         <node concept="3F$xvT" id="5keHOqMiC8v" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
           <ref role="3F$xdr" node="5keHOqMc715" resolve="sl" />
         </node>
       </node>
@@ -358,7 +358,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63u2" resolve="Slot" />
         <node concept="3F$xvT" id="5keHOqMc71f" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
           <ref role="3F$xdr" node="5keHOqMc70v" resolve="s" />
         </node>
       </node>
@@ -769,7 +769,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tR" resolve="Class" />
         <node concept="3F$xvT" id="5keHOqMiCTe" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tF" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tF" resolve="weekPlan" />
           <ref role="3F$xdr" node="5keHOqMiCTf" resolve="wp1" />
         </node>
       </node>
@@ -778,7 +778,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tD" resolve="WeekPlan" />
         <node concept="3F$xvT" id="5keHOqMiCTg" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgT" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgT" resolve="dayPlans" />
           <ref role="3F$xdr" node="5keHOqMiCTh" resolve="dp1" />
         </node>
       </node>
@@ -787,7 +787,7 @@
         <ref role="3F$xdl" to="zom:5keHOqMdSgU" resolve="DayPlan" />
         <node concept="3F$xvT" id="5keHOqMiCTi" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
           <ref role="3F$xdr" node="5keHOqMdiS2" resolve="s1" />
         </node>
       </node>
@@ -797,7 +797,7 @@
         <node concept="3F$xvT" id="5keHOqMdiS3" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMdiS1" resolve="t" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u5" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u5" resolve="teacher" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiCTj" role="3F$xvU">
@@ -805,7 +805,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tR" resolve="Class" />
         <node concept="3F$xvT" id="5keHOqMiCTk" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tF" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tF" resolve="weekPlan" />
           <ref role="3F$xdr" node="5keHOqMiCTl" resolve="wp2" />
         </node>
       </node>
@@ -814,7 +814,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tD" resolve="WeekPlan" />
         <node concept="3F$xvT" id="5keHOqMiCTm" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgT" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgT" resolve="dayPlans" />
           <ref role="3F$xdr" node="5keHOqMiCTn" resolve="dp2" />
         </node>
       </node>
@@ -823,7 +823,7 @@
         <ref role="3F$xdl" to="zom:5keHOqMdSgU" resolve="DayPlan" />
         <node concept="3F$xvT" id="5keHOqMiCTo" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
           <ref role="3F$xdr" node="5keHOqMdiSc" resolve="s2" />
         </node>
       </node>
@@ -1175,7 +1175,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUg" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUa" resolve="wp1" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tF" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tF" resolve="weekPlan" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKU9" role="3F$xvU">
@@ -1184,7 +1184,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUh" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUb" resolve="wp2" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tF" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tF" resolve="weekPlan" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUa" role="3F$xvU">
@@ -1193,7 +1193,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUi" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUc" resolve="dp1" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgT" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgT" resolve="dayPlans" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUb" role="3F$xvU">
@@ -1202,7 +1202,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUj" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUd" resolve="dp2" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgT" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgT" resolve="dayPlans" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUc" role="3F$xvU">
@@ -1221,7 +1221,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUk" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUe" resolve="s1" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUd" role="3F$xvU">
@@ -1230,7 +1230,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUl" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUf" resolve="s2" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUe" role="3F$xvU">
@@ -1239,7 +1239,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUB" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUA" resolve="t" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u5" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u5" resolve="teacher" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUf" role="3F$xvU">
@@ -1248,7 +1248,7 @@
         <node concept="3F$xvT" id="5keHOqMiKUC" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiKUA" resolve="t" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u5" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u5" resolve="teacher" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiKUA" role="3F$xvU">
@@ -1701,30 +1701,30 @@
       </node>
       <node concept="3F$xvW" id="5keHOqMc8$L" role="3F$xvU">
         <property role="TrG5h" value="o1" />
-        <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Ability" />
+        <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Offering" />
         <node concept="3F$xvT" id="5keHOqMc8$M" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tN" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tN" resolve="subject" />
           <ref role="3F$xdr" node="5keHOqMc8$$" resolve="s" />
         </node>
         <node concept="3F$xvT" id="5keHOqMd41l" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqMc9o3" />
+          <ref role="3F$xdF" to="zom:5keHOqMc9o3" resolve="teacher" />
           <ref role="3F$xdr" node="5keHOqMc8$z" resolve="t1" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMc8$V" role="3F$xvU">
         <property role="TrG5h" value="o2" />
-        <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Ability" />
+        <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Offering" />
         <node concept="3F$xvT" id="5keHOqMc8$W" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMc8$$" resolve="s" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tN" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tN" resolve="subject" />
         </node>
         <node concept="3F$xvT" id="5keHOqMd41w" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMc8$D" resolve="t2" />
-          <ref role="3F$xdF" to="zom:5keHOqMc9o3" />
+          <ref role="3F$xdF" to="zom:5keHOqMc9o3" resolve="teacher" />
         </node>
       </node>
     </node>
@@ -2131,7 +2131,7 @@
         <node concept="3F$xvT" id="5keHOqMiQHL" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiQHu" resolve="sl1" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiQHu" role="3F$xvU">
@@ -2140,7 +2140,7 @@
         <node concept="3F$xvT" id="5keHOqMiQHC" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiQHs" resolve="s" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
       </node>
     </node>
@@ -2267,7 +2267,7 @@
         <node concept="3F$xvT" id="5keHOqMiTWw" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiTWj" resolve="sl1" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiTWj" role="3F$xvU">
@@ -2276,7 +2276,7 @@
         <node concept="3F$xvT" id="5keHOqMiTWV" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiTW9" resolve="s" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiTWv" role="3F$xvU">
@@ -2285,7 +2285,7 @@
         <node concept="3F$xvT" id="5keHOqMiTWW" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiTW9" resolve="s" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMiTWc" role="3F$xvU">
@@ -2294,7 +2294,7 @@
         <node concept="3F$xvT" id="5keHOqMiTWx" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMiTWv" resolve="sl2" />
-          <ref role="3F$xdF" to="zom:5keHOqMdSgW" />
+          <ref role="3F$xdF" to="zom:5keHOqMdSgW" resolve="slots" />
         </node>
       </node>
     </node>
@@ -2497,7 +2497,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Offering" />
         <node concept="3F$xvT" id="5keHOqMdjen" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tN" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tN" resolve="subject" />
           <ref role="3F$xdr" node="5keHOqMdjek" resolve="s" />
         </node>
       </node>
@@ -2507,7 +2507,7 @@
         <ref role="3F$xdl" to="zom:5keHOqM63tM" resolve="Offering" />
         <node concept="3F$xvT" id="5keHOqMdjex" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63tN" />
+          <ref role="3F$xdF" to="zom:5keHOqM63tN" resolve="subject" />
           <ref role="3F$xdr" node="5keHOqMdjek" resolve="s" />
         </node>
       </node>
@@ -2805,13 +2805,13 @@
         <ref role="3F$xdl" to="zom:5keHOqM63u2" resolve="Slot" />
         <node concept="3F$xvT" id="5keHOqMdial" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
           <ref role="3F$xdr" node="5keHOqMd5fM" resolve="s" />
         </node>
         <node concept="3F$xvT" id="5keHOqMdiaS" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMd5fV" resolve="t1" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u5" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u5" resolve="teacher" />
         </node>
       </node>
       <node concept="3F$xvW" id="5keHOqMd5gp" role="3F$xvU">
@@ -2820,12 +2820,12 @@
         <node concept="3F$xvT" id="5keHOqMdiam" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMd5fM" resolve="s" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
         <node concept="3F$xvT" id="5keHOqMdiaT" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="5keHOqMd5g1" resolve="t2" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u5" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u5" resolve="teacher" />
         </node>
       </node>
     </node>
@@ -3075,7 +3075,7 @@
         <node concept="3F$xvT" id="1Q$zUNG4Ecq" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="1Q$zUNG4EbU" resolve="subject" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
         <node concept="3DPk8X" id="1Q$zUNG4Ed5" role="3F$xvO">
           <property role="TrG5h" value="sibling" />
@@ -3089,7 +3089,7 @@
         <node concept="3F$xvT" id="1Q$zUNG4Ecr" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="1Q$zUNG4EbU" resolve="subject" />
-          <ref role="3F$xdF" to="zom:5keHOqM63u4" />
+          <ref role="3F$xdF" to="zom:5keHOqM63u4" resolve="subject" />
         </node>
       </node>
     </node>

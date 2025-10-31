@@ -2,7 +2,7 @@
 <model ref="r:8e8acd99-b177-4463-81b4-6b0154da2dfb(Momo.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -186,7 +186,7 @@
         </node>
         <node concept="3F2HdR" id="5keHOqMc9oa" role="3EZMnx">
           <property role="S$F3r" value="true" />
-          <ref role="1NtTu8" to="zom:5keHOqMc9o2" />
+          <ref role="1NtTu8" to="zom:5keHOqMc9o2" resolve="offerings" />
           <node concept="l2Vlx" id="5keHOqMc9ob" role="2czzBx" />
           <node concept="pj6Ft" id="5keHOqMc9oc" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -280,7 +280,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="5keHOqMc9om" role="3EZMnx">
-        <ref role="1NtTu8" to="zom:5keHOqM63tN" />
+        <ref role="1NtTu8" to="zom:5keHOqM63tN" resolve="subject" />
         <node concept="1sVBvm" id="5keHOqMc9on" role="1sWHZn">
           <node concept="3F0A7n" id="5keHOqMc9oo" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -346,7 +346,7 @@
       </node>
       <node concept="3EZMnI" id="5keHOqM8s8g" role="3EZMnx">
         <node concept="3F2HdR" id="5keHOqM8s8j" role="3EZMnx">
-          <ref role="1NtTu8" to="zom:5keHOqMdSgT" />
+          <ref role="1NtTu8" to="zom:5keHOqMdSgT" resolve="dayPlans" />
           <node concept="2iRkQZ" id="5keHOqM8s8k" role="2czzBx" />
           <node concept="VPM3Z" id="5keHOqM8s8l" role="3F10Kt" />
           <node concept="VPXOz" id="5keHOqM8s8m" role="3F10Kt" />
@@ -429,7 +429,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="5keHOqM7_iy" role="3EZMnx">
-        <ref role="1NtTu8" to="zom:5keHOqMdSgW" />
+        <ref role="1NtTu8" to="zom:5keHOqMdSgW" resolve="slots" />
         <node concept="2iRkQZ" id="5keHOqM7_i_" role="2czzBx" />
         <node concept="VPM3Z" id="5keHOqM7_iA" role="3F10Kt" />
         <node concept="VPXOz" id="5keHOqM8s7K" role="3F10Kt">
