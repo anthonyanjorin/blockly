@@ -243,5 +243,78 @@
       <ref role="1yxtvM" node="5keHOqJHzsu" resolve="kite fractal" />
     </node>
   </node>
+  <node concept="3qu2lB" id="3TenEFEgspf">
+    <property role="1ywVNE" value="20" />
+    <property role="TrG5h" value="triforce" />
+    <node concept="1ywVZ$" id="3TenEFEgsz7" role="1yx1lp">
+      <property role="TrG5h" value="tri" />
+      <node concept="1yxRPX" id="3TenEFEgsz8" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="1" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1Hl7RD" resolve="randomly coloured" />
+      </node>
+      <node concept="1yxRPX" id="3TenEFEgsza" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yAFz_" to="6vd5:1eyDnoVIG5A" resolve="orange" />
+      </node>
+      <node concept="1yxRPX" id="3TenEFEgszb" role="1yxRbN">
+        <property role="1yxsbr" value="1" />
+        <property role="1yxs84" value="2" />
+        <ref role="1yAFz_" to="6vd5:Z8IC1HkTa7" resolve="red" />
+      </node>
+    </node>
+    <node concept="1ywVZ$" id="3TenEFEgsze" role="1yx1lp">
+      <property role="TrG5h" value="bigtri" />
+      <node concept="1ywVSF" id="3TenEFEgszf" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="2" />
+        <ref role="1yxtvM" node="3TenEFEgsz7" resolve="tri" />
+      </node>
+      <node concept="1ywVSF" id="3TenEFEgszg" role="1yxRbN">
+        <property role="1yxsbr" value="2" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yxtvM" node="3TenEFEgsz7" resolve="tri" />
+      </node>
+      <node concept="1ywVSF" id="3TenEFEgszh" role="1yxRbN">
+        <property role="1yxsbr" value="2" />
+        <property role="1yxs84" value="4" />
+        <ref role="1yxtvM" node="3TenEFEgsz7" resolve="tri" />
+      </node>
+    </node>
+    <node concept="1ywVZ$" id="3TenEFEgszj" role="1yx1lp">
+      <property role="TrG5h" value="verybigtri" />
+      <node concept="1ywVSF" id="3TenEFEgsz9" role="1yxRbN">
+        <property role="1yxsbr" value="0" />
+        <property role="1yxs84" value="4" />
+        <ref role="1yxtvM" node="3TenEFEgsze" resolve="bigtri" />
+      </node>
+      <node concept="1ywVSF" id="3TenEFEgszc" role="1yxRbN">
+        <property role="1yxsbr" value="4" />
+        <property role="1yxs84" value="8" />
+        <ref role="1yxtvM" node="3TenEFEgsze" resolve="bigtri" />
+      </node>
+      <node concept="1ywVSF" id="3TenEFEgszd" role="1yxRbN">
+        <property role="1yxsbr" value="4" />
+        <property role="1yxs84" value="0" />
+        <ref role="1yxtvM" node="3TenEFEgsze" resolve="bigtri" />
+      </node>
+    </node>
+    <node concept="1ywVSF" id="3TenEFEgszk" role="1ywVSf">
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="3TenEFEgszj" resolve="verybigtri" />
+    </node>
+    <node concept="1ywVSF" id="3TenEFEgszm" role="1ywVSf">
+      <property role="1yxsbr" value="10" />
+      <property role="1yxs84" value="0" />
+      <ref role="1yxtvM" node="3TenEFEgszj" resolve="verybigtri" />
+    </node>
+    <node concept="1ywVSF" id="3TenEFEgszp" role="1ywVSf">
+      <property role="1yxsbr" value="0" />
+      <property role="1yxs84" value="10" />
+      <ref role="1yxtvM" node="3TenEFEgszj" resolve="verybigtri" />
+    </node>
+  </node>
 </model>
 
